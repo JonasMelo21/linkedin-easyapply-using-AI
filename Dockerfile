@@ -1,5 +1,5 @@
 # Usa uma imagem leve do Python
-FROM python:3.9-slim
+FROM python:3.11-slim
 
 # 1. Instala Chrome, Driver e dependências do sistema
 # (Isso é vital para o Selenium funcionar no futuro se precisar)
