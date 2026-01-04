@@ -15,15 +15,10 @@ if not api_key:
     print("ERRO: API Key não encontrada no .env")
     exit()
 
-# Configura Gemini
 genai.configure(api_key=api_key)
-
-# MUDANÇA 1: Usando o alias estável que apareceu na sua lista.
-# Esse modelo tem limites muito maiores que o 2.0 experimental.
 model = genai.GenerativeModel('models/gemini-flash-latest')
 
 def clean_and_parse_json(response_text):
-    """Limpa a resposta da IA tentando extrair JSON válido."""
     if not response_text: return None
     try:
         return json.loads(response_text)
@@ -37,34 +32,41 @@ def clean_and_parse_json(response_text):
         return None
     return None
 
-def get_ai_data(description):
-    # MUDANÇA 2: Reduzi de 15000 para 6000 caracteres.
-    # Job descriptions raramente passam disso e economiza tokens (evita erro de cota).
+def get_ai_data(description, titulo_original):
     texto_reduzido = description[:6000]
 
+    # --- PROMPT REFORMULADO 3.0 ---
     prompt = f"""
-    Analise a descrição de vaga abaixo. Extraia as skills técnicas.
+    Analise a descrição e o título da vaga. Extraia as skills e CLASSIFIQUE a vaga.
     
+    TÍTULO ORIGINAL: {titulo_original}
     DESCRIÇÃO:
     {texto_reduzido}
 
-    IMPORTANTE: Retorne APENAS um JSON válido. Não use Markdown.
-    Se não encontrar a informação, use "N/A" ou lista vazia [].
+    TAREFA OBRIGATÓRIA:
+    1. "cargo_simplificado": Escolha UM: "Data Engineer", "Data Scientist", "Machine Learning Engineer", "Analytics Engineer", "Data Analyst", "Software Engineer", "Outros".
+    
+    2. "senioridade_simplificada": Escolha UM: "Estágio", "Junior", "Pleno", "Senior", "Especialista", "Gestão", "N/A".
+    
+    3. "tipo_padronizado": Escolha UM: 
+       - "Remoto" (100% home office, anywhere)
+       - "Híbrido" (Alguns dias no escritório)
+       - "Presencial" (100% no escritório)
+       - "N/A" (Se não for mencionado)
 
-    Formato obrigatório:
+    Retorne APENAS um JSON válido neste formato:
     {{
-        "senioridade": "Texto",
-        "tech_stack": ["Skill1", "Skill2"],
-        "educacao": "Texto",
-        "tipo": "Texto",
-        "soft_skills": ["Skill1"],
-        "cloud": ["AWS", "Azure", "etc"],
-        "linguas": ["Inglês", "etc"]
+        "cargo_simplificado": "Data Engineer",
+        "senioridade_simplificada": "Pleno",
+        "tipo_padronizado": "Remoto",
+        "tech_stack": ["Python", "SQL", "Spark"],
+        "cloud": ["AWS", "Databricks"],
+        "soft_skills": ["Comunicação"],
+        "educacao": "Graduação em TI",
+        "linguas": ["Inglês"]
     }}
     """
     
-    # MUDANÇA 3: Lógica de Retry (Tentar Novamente)
-    # Em vez de falhar e pular a linha, ele tenta até 3 vezes com espera exponencial
     tentativas = 0
     max_tentativas = 5
     
@@ -72,19 +74,13 @@ def get_ai_data(description):
         try:
             response = model.generate_content(prompt)
             return clean_and_parse_json(response.text)
-        
         except Exception as e:
-            erro_str = str(e)
-            if "429" in erro_str or "quota" in erro_str.lower():
-                wait_time = (tentativas + 1) * 10 # Espera 10s, 20s, 30s...
-                tqdm.write(f"  ⏳ Cota atingida (429). Esperando {wait_time}s para tentar de novo...")
-                time.sleep(wait_time)
+            if "429" in str(e) or "quota" in str(e).lower():
+                time.sleep((tentativas + 1) * 10)
                 tentativas += 1
             else:
-                tqdm.write(f"  ❌ Erro desconhecido na API: {e}")
                 return None
-    
-    return None # Desiste após 5 tentativas
+    return None
 
 # --- PROCESSAMENTO ---
 
@@ -97,43 +93,55 @@ except FileNotFoundError:
     print("Arquivo não encontrado!")
     exit()
 
-colunas_alvo = ["senioridade", "tech_stack", "educacao", "tipo", "soft_skills", "cloud", "linguas"]
+# Adicionei 'tipo_padronizado' nas colunas alvo
+colunas_alvo = ["cargo_simplificado", "senioridade_simplificada", "tipo_padronizado", "tech_stack", "educacao", "soft_skills", "cloud", "linguas"]
 for col in colunas_alvo:
     if col not in df.columns:
         df[col] = None
     df[col] = df[col].astype(object)
 
-print(f"🚀 Iniciando enriquecimento de {len(df)} vagas com modelo 'gemini-flash-latest'...")
+print(f"🚀 Iniciando padronização e fusão de Tech+Cloud...")
 
 alteracoes = 0
 
 for index, row in tqdm(df.iterrows(), total=df.shape[0]):
     
-    # Pula se já estiver preenchido
-    stack_atual = str(row['tech_stack'])
-    if len(stack_atual) > 5 and "[]" not in stack_atual and "N/A" not in stack_atual:
+    # Lógica de Pular: Só pula se as 3 colunas principais já estiverem preenchidas
+    cargo_ok = str(row['cargo_simplificado']) not in ["None", "nan", ""]
+    senior_ok = str(row['senioridade_simplificada']) not in ["None", "nan", ""]
+    tipo_ok = str(row['tipo_padronizado']) not in ["None", "nan", ""]
+    
+    if cargo_ok and senior_ok and tipo_ok:
         continue
 
     descricao = row['descricao_raw']
+    titulo = row['titulo']
     
     if pd.isna(descricao) or len(str(descricao)) < 10:
         continue
     
-    # Chama a IA
-    dados_ia = get_ai_data(str(descricao))
+    dados_ia = get_ai_data(str(descricao), str(titulo))
     
     if dados_ia:
-        df.at[index, 'senioridade'] = dados_ia.get('senioridade', 'N/A')
-        df.at[index, 'tech_stack']  = str(dados_ia.get('tech_stack', []))
-        df.at[index, 'educacao']    = dados_ia.get('educacao', 'N/A')
-        df.at[index, 'tipo']        = dados_ia.get('tipo', 'N/A')
+        df.at[index, 'cargo_simplificado'] = dados_ia.get('cargo_simplificado', 'Outros')
+        df.at[index, 'senioridade_simplificada'] = dados_ia.get('senioridade_simplificada', 'N/A')
+        df.at[index, 'tipo_padronizado'] = dados_ia.get('tipo_padronizado', 'N/A')
+        
+        # --- FUSÃO INTELIGENTE DE LISTAS ---
+        skills = dados_ia.get('tech_stack', [])
+        cloud_tools = dados_ia.get('cloud', [])
+        
+        # Junta Cloud dentro de Tech Stack (sem duplicar)
+        tech_completa = list(set(skills + cloud_tools))
+        
+        df.at[index, 'tech_stack']  = str(tech_completa) # Agora salva tudo junto!
+        df.at[index, 'cloud']       = str(cloud_tools)   # Mantém cloud separado tbm se quiser consultar depois
+        
         df.at[index, 'soft_skills'] = str(dados_ia.get('soft_skills', []))
-        df.at[index, 'cloud']       = str(dados_ia.get('cloud', []))
+        df.at[index, 'educacao']    = dados_ia.get('educacao', 'N/A')
         df.at[index, 'linguas']     = str(dados_ia.get('linguas', []))
         alteracoes += 1
     
-    # MUDANÇA 4: Pausa menor. O modelo Flash aguenta mais. 
-    # 4 segundos é seguro para o Free Tier (15 requests/minuto)
     time.sleep(4) 
 
     if index % 5 == 0:

@@ -6,15 +6,9 @@ import plotly.express as px
 # 1. Configuração da Página
 st.set_page_config(page_title="Job Hunter Skills", layout="wide", page_icon="💼")
 
-# --- CSS para deixar bonito ---
 st.markdown("""
 <style>
-    .metric-card {
-        background-color: #f0f2f6;
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-    }
+    .metric-card { background-color: #f0f2f6; padding: 20px; border-radius: 10px; text-align: center; }
 </style>
 """, unsafe_allow_html=True)
 
@@ -26,13 +20,17 @@ st.markdown("Descubra as tecnologias e skills mais pedidas nas vagas do LinkedIn
 def load_data():
     try:
         df = pd.read_csv('dados_vagas_linkedin.csv')
+        # Garante colunas mínimas
+        cols_obrigatorias = ['cargo_simplificado', 'senioridade_simplificada', 'tipo_padronizado']
+        for col in cols_obrigatorias:
+            if col not in df.columns:
+                df[col] = 'N/A'
         return df
     except FileNotFoundError:
         return pd.DataFrame()
 
 df_raw = load_data()
 
-# 3. Verificar se tem dados
 if df_raw.empty:
     st.warning("⚠️ Nenhum dado encontrado. Suba o arquivo 'dados_vagas_linkedin.csv'.")
     st.stop()
@@ -46,66 +44,77 @@ def limpar_lista(item):
 
 if 'tech_stack' in df_raw.columns:
     df_raw['tech_stack_lista'] = df_raw['tech_stack'].apply(limpar_lista)
+# Cloud ainda existe separado, mas Tech Stack agora engloba tudo
 if 'cloud' in df_raw.columns:
     df_raw['cloud_lista'] = df_raw['cloud'].apply(limpar_lista)
 
-# --- SIDEBAR (FILTROS) ---
+# --- SIDEBAR (3 FILTROS) ---
 st.sidebar.header("🔍 Filtros de Busca")
 
-# Filtro 1: Cargo (Título da Vaga)
-# Pegamos todos os títulos únicos do CSV para não errar
-cargos_unicos = sorted(df_raw['titulo'].dropna().unique().tolist())
-# Adicionamos a opção "Todos" no começo
-opcoes_cargo = ["Todos"] + cargos_unicos
-cargo_selecionado = st.sidebar.selectbox("Escolha o Cargo:", opcoes_cargo)
+# 1. Cargo
+cargos_unicos = sorted(df_raw['cargo_simplificado'].dropna().unique().tolist())
+cargo_selecionado = st.sidebar.selectbox("Área / Cargo:", ["Todos"] + cargos_unicos)
 
-# Filtro 2: Senioridade (Se a coluna existir)
-if 'senioridade' in df_raw.columns:
-    senioridades = sorted(df_raw['senioridade'].dropna().unique().tolist())
-    opcoes_senior = ["Todas"] + senioridades
-    senior_selecionado = st.sidebar.selectbox("Nível de Senioridade:", opcoes_senior)
-else:
-    senior_selecionado = "Todas"
+# 2. Senioridade
+ordem_senioridade = ["Estágio", "Junior", "Pleno", "Senior", "Especialista", "Gestão", "N/A"]
+senioridades_existentes = df_raw['senioridade_simplificada'].dropna().unique().tolist()
+senioridades_ordenadas = [s for s in ordem_senioridade if s in senioridades_existentes]
+senioridades_ordenadas += [s for s in senioridades_existentes if s not in ordem_senioridade]
+senior_selecionado = st.sidebar.selectbox("Nível de Experiência:", ["Todos"] + senioridades_ordenadas)
+
+# 3. Modelo de Trabalho (NOVO)
+tipos_unicos = ["Remoto", "Híbrido", "Presencial", "N/A"]
+# Filtra apenas os que existem no CSV para não mostrar opção vazia
+tipos_existentes = [t for t in tipos_unicos if t in df_raw['tipo_padronizado'].unique()]
+tipo_selecionado = st.sidebar.selectbox("Modelo de Trabalho:", ["Todos"] + tipos_existentes)
 
 # --- APLICAR FILTROS ---
 df_filtered = df_raw.copy()
 
 if cargo_selecionado != "Todos":
-    df_filtered = df_filtered[df_filtered['titulo'] == cargo_selecionado]
+    df_filtered = df_filtered[df_filtered['cargo_simplificado'] == cargo_selecionado]
 
-if senior_selecionado != "Todas":
-    df_filtered = df_filtered[df_filtered['senioridade'] == senior_selecionado]
+if senior_selecionado != "Todos":
+    df_filtered = df_filtered[df_filtered['senioridade_simplificada'] == senior_selecionado]
 
-# --- DASHBOARD (Usando df_filtered) ---
+if tipo_selecionado != "Todos":
+    df_filtered = df_filtered[df_filtered['tipo_padronizado'] == tipo_selecionado]
 
+# --- DASHBOARD ---
 st.divider()
 
-# Métricas
 col1, col2, col3, col4 = st.columns(4)
-col1.metric("Vagas Encontradas", len(df_filtered))
-col2.metric("Empresas Únicas", df_filtered['empresa'].nunique() if 'empresa' in df_filtered.columns else 0)
-col3.metric("Local Principal", df_filtered['local'].mode()[0] if not df_filtered.empty and 'local' in df_filtered.columns else "N/A")
-# Se filtrou cargo, mostra o salário ou senioridade comum. Se não, mostra o cargo top.
-if cargo_selecionado != "Todos":
-    top_info = df_filtered['senioridade'].mode()[0] if 'senioridade' in df_filtered.columns and not df_filtered.empty else "N/A"
-    label_info = "Senioridade Comum"
+col1.metric("Vagas Filtradas", len(df_filtered))
+col2.metric("Empresas", df_filtered['empresa'].nunique() if 'empresa' in df_filtered.columns else 0)
+
+# Métrica de Local ou Remoto
+if tipo_selecionado == "Todos":
+    # Se não filtrou tipo, mostra qual ganha (Ex: Maioria Remoto)
+    label_tipo = "Modelo Predominante"
+    val_tipo = df_filtered['tipo_padronizado'].mode()[0] if not df_filtered.empty else "N/A"
+    col3.metric(label_tipo, val_tipo)
 else:
-    top_info = df_filtered['titulo'].mode()[0] if not df_filtered.empty else "N/A"
-    label_info = "Cargo Mais Ofertado"
-col4.metric(label_info, top_info)
+    # Se já filtrou, mostra o local físico mais comum
+    val_local = df_filtered['local'].mode()[0] if not df_filtered.empty and 'local' in df_filtered.columns else "N/A"
+    col3.metric("Local Principal", val_local)
+
+# Métrica de Salário/Senioridade
+label_info = "Nível Mais Comum"
+val_info = df_filtered['senioridade_simplificada'].mode()[0] if not df_filtered.empty else "N/A"
+col4.metric(label_info, val_info)
 
 st.divider()
 
 if df_filtered.empty:
     st.info("Nenhuma vaga corresponde aos filtros selecionados.")
 else:
-    # Gráficos Lado a Lado
     col_left, col_right = st.columns(2)
 
     with col_left:
-        st.subheader("🛠️ Top Hard Skills")
+        st.subheader("🛠️ Top Skills (Tech + Cloud)")
+        # Como tech_stack agora inclui cloud, esse gráfico mostra tudo
         if 'tech_stack_lista' in df_filtered.columns:
-            tech_counts = df_filtered.explode('tech_stack_lista')['tech_stack_lista'].value_counts().head(10).reset_index()
+            tech_counts = df_filtered.explode('tech_stack_lista')['tech_stack_lista'].value_counts().head(12).reset_index()
             tech_counts.columns = ['Tecnologia', 'Contagem']
             
             fig_tech = px.bar(tech_counts, x='Contagem', y='Tecnologia', orientation='h', 
@@ -114,7 +123,8 @@ else:
             st.plotly_chart(fig_tech, use_container_width=True)
 
     with col_right:
-        st.subheader("☁️ Cloud & Infra")
+        st.subheader("☁️ Ferramentas de Nuvem (Específico)")
+        # Mantivemos este separado para quem quer ver SÓ cloud
         if 'cloud_lista' in df_filtered.columns:
             cloud_counts = df_filtered.explode('cloud_lista')['cloud_lista'].value_counts().head(10).reset_index()
             cloud_counts.columns = ['Ferramenta', 'Contagem']
@@ -125,9 +135,9 @@ else:
                 fig_cloud.update_layout(yaxis={'categoryorder':'total ascending'})
                 st.plotly_chart(fig_cloud, use_container_width=True)
             else:
-                st.info("Sem dados de Cloud para essa seleção.")
+                st.info("Nenhuma ferramenta de nuvem específica detectada nestas vagas.")
 
-    # Tabela de Dados
-    with st.expander(f"Ver detalhes das {len(df_filtered)} vagas"):
-        cols_show = [c for c in ['data_coleta', 'titulo', 'empresa', 'local', 'senioridade', 'link'] if c in df_filtered.columns]
+    with st.expander(f"Ver lista de vagas filtradas ({len(df_filtered)})"):
+        cols_show = ['titulo', 'cargo_simplificado', 'senioridade_simplificada', 'tipo_padronizado', 'empresa', 'link']
+        cols_show = [c for c in cols_show if c in df_filtered.columns]
         st.dataframe(df_filtered[cols_show], hide_index=True)
