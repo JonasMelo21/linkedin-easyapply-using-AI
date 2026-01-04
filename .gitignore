@@ -1,0 +1,19 @@
+# Python e Venv
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Arquivos de Sistema e IDE
+.vscode/
+.DS_Store
+
+# Dados e Configurações (SEGURANÇA!)
+.env
+config.json
+*.csv
+*.pkl
+*.txt
+
+# Lixo de instalação
+*.deb
