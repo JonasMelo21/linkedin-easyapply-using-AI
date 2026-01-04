@@ -3,11 +3,11 @@
 linkedin-easyapply-using-AI     //
 ├─ LICENSE                      //
 ├─ README.md                    //
+├─ analise.ipynb                //
 ├─ apply.py                     //
-├─ config.json                  //
-├─ config.txt                   //
+├─ check_models.py              //
+├─ enrich.py                    //
 ├─ image.png                    //
-├─ mytree.md                    //
-└─ requirements.txt             //
+└─ mytree.md                    //
 
 ```

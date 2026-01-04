@@ -34,14 +34,11 @@ except:
 
 for key in data: globals()[key] = data[key]
 
-# Segredos
-username = os.getenv("LINKEDIN_USERNAME")
-password = os.getenv("LINKEDIN_PASSWORD")
+# Segredos (Só precisamos da API KEY agora, o login vc faz na mão)
 gemini_api_key = os.getenv("GEMINI_API_KEY")
-linkedin_cookie = os.getenv("LINKEDIN_COOKIE") # <--- NOVO SEGREDO
 
 if not gemini_api_key:
-    print("ERRO: Faltando API Key")
+    print("ERRO: Faltando API Key no .env")
     sys.exit()
 
 # --- FUNÇÕES IA ---
@@ -68,67 +65,39 @@ def get_extraction_prompt(description):
 # --- CLASSE PRINCIPAL ---
 class LinkedinScraper:
     def __init__(self):
-        global linkedin_cookie
         
         options = Options()
         
-        # --- MODO COM TELA (GUI) PARA UBUNTU NATIVO ---
-        # options.add_argument("--headless=new")  <-- COMENTE ESSA LINHA (põe # na frente)
-        # options.add_argument("--no-sandbox")    <-- COMENTE (não precisa no nativo)
-        # options.add_argument("--disable-dev-shm-usage") <-- COMENTE
+        # --- MODO VISUAL (COM TELA) ---
+        options.add_argument("--start-maximized")
+        options.add_argument("--incognito") # Sempre anônimo para não pegar cache velho
         
-        options.add_argument("--start-maximized") # Abre tela cheia
-        options.add_argument("--incognito")       # Modo anônimo (MUITO IMPORTANTE manter)
-        
-        # Truques Anti-Robô (Mantenha isso!)
+        # Disfarces
+        user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        options.add_argument(f'user-agent={user_agent}')
         options.add_argument("--disable-blink-features=AutomationControlled") 
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option('useAutomationExtension', False)
         
-        print("Iniciando navegador (COM TELA)...")
+        print("Iniciando navegador...")
         service = Service(ChromeDriverManager().install())
         self.driver = webdriver.Chrome(service=service, options=options)
-
         
-        # --- LÓGICA DE LOGIN COM COOKIE (BYPASS) ---
-        print("Acessando LinkedIn para injetar cookie...")
-        self.driver.get('https://www.linkedin.com/404') # Página leve qualquer para setar domínio
-        
-        if linkedin_cookie:
-            print("Injetando cookie de sessão (li_at)...")
-            # Adiciona o cookie
-            self.driver.add_cookie({
-                'name': 'li_at',
-                'value': linkedin_cookie,
-                'domain': '.linkedin.com'
-            })
-            
-            print("Atualizando página para validar login...")
-            self.driver.get('https://www.linkedin.com/feed/')
-            time.sleep(5)
-            
-            print(f"URL atual: {self.driver.current_url}")
-            if "feed" in self.driver.current_url:
-                print("✅ LOGIN COM COOKIE SUCESSO! Captcha evitado.")
-            else:
-                print("⚠️ O cookie pode ter expirado ou falhado. Tentando login manual...")
-                self.login_manual()
-        else:
-            print("Cookie não encontrado no .env. Tentando login manual...")
-            self.login_manual()
-
-    def login_manual(self):
-        # Fallback para o método antigo se o cookie falhar
-        global username, password
+        # --- LOGIN SEMI-AUTOMÁTICO ---
+        print("Abrindo página de Login...")
         self.driver.get('https://www.linkedin.com/login')
-        time.sleep(2)
-        try:
-            self.driver.find_element(By.ID, 'username').send_keys(username)
-            self.driver.find_element(By.ID, 'password').send_keys(password)
-            self.driver.find_element(By.XPATH, '//button[@type="submit"]').click()
-            time.sleep(5)
-        except Exception as e:
-            print(f"Erro login manual: {e}")
+        
+        print("\n" + "="*60)
+        print("🛑 PAUSA PARA LOGIN MANUAL 🛑")
+        print("1. Vá na janela do Chrome que abriu.")
+        print("2. Faça o login na sua conta (resolva captcha se precisar).")
+        print("3. Espere carregar o FEED (Página inicial).")
+        print("4. VOLTE AQUI e aperte ENTER para continuar.")
+        print("="*60 + "\n")
+        
+        input("👉 APERTE ENTER AQUI DEPOIS DE LOGAR...")
+        
+        print("Retomando automação...")
 
     def scrape_jobs(self):
         global locations, keywords, remote, hybrid
@@ -147,13 +116,15 @@ class LinkedinScraper:
                 
                 url = f'https://www.linkedin.com/jobs/search/?keywords={keyword}&location={location}{f_WT}&refresh=true'
                 self.driver.get(url)
-                time.sleep(5)
+                
+                # Pausa extra para garantir que a página de busca carregue sem bloquear
+                time.sleep(random.uniform(5, 8))
                 
                 try:
                     job_cards = self.driver.find_elements(By.XPATH, '//div[@data-job-id]')
                     print(f"Encontrados {len(job_cards)} vagas.")
                 except:
-                    print("Nenhuma vaga encontrada.")
+                    print("Nenhuma vaga encontrada ou erro de carregamento.")
                     continue
 
                 for card in job_cards:
@@ -194,7 +165,7 @@ class LinkedinScraper:
                             "soft_skills": str(data_json.get("soft_skills", [])),
                             "cloud": str(data_json.get("ferramentas_cloud", [])),
                             "linguas": str(data_json.get("linguas", [])),
-                            "descricao_raw": desc[:300] + "..." 
+                            "descricao_raw": desc[:] 
                         }
                         pd.DataFrame([new_row]).to_csv(output_file, mode='a', header=False, index=False)
                         print("✅ Salvo!")
