@@ -1,13 +1,13 @@
 
 ```
-linkedin-easyapply-using-AI     //
-├─ LICENSE                      //
+job-hunter-skills               //
+├─ Dockerfile                   //
 ├─ README.md                    //
-├─ analise.ipynb                //
-├─ apply.py                     //
-├─ check_models.py              //
+├─ analises.ipynb               //
+├─ app.py                       //
+├─ dados_vagas_linkedin.csv     //
 ├─ enrich.py                    //
-├─ image.png                    //
-└─ mytree.md                    //
+├─ requirements.txt             //
+└─ scrapper.py                  //
 
 ```
