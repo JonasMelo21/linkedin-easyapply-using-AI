@@ -48,6 +48,66 @@ if 'tech_stack' in df_raw.columns:
 if 'cloud' in df_raw.columns:
     df_raw['cloud_lista'] = df_raw['cloud'].apply(limpar_lista)
 
+# --- NORMALIZAÇÃO E EXPANSÃO DE SKILLS ---
+def normalizar_techs(lista_techs):
+    if not isinstance(lista_techs, list): return []
+    nova_lista = []
+    
+    # Mapa de EXPANSÃO (1 skill vira várias)
+    # Ex: 'Azure Databricks' -> Conta como Azure e como Databricks
+    mapa_expansao = {
+        'azure databricks': ['Azure', 'Databricks'],
+        'azure sql': ['Azure', 'SQL', 'Azure SQL'],
+        'azure sql database': ['Azure', 'SQL', 'Azure SQL'],
+        'aws glue': ['AWS', 'Glue'],
+        'aws lambda': ['AWS', 'Lambda'],
+        'google bigquery': ['GCP', 'BigQuery'],
+        'bigquery': ['GCP', 'BigQuery']
+    }
+
+    # Mapa de SUBSTITUIÇÃO SIMPLES (Padronização)
+    mapa_substituicao = {
+        'data bricks': 'Databricks',
+        'powerbi': 'Power BI',
+        'microsoft power bi': 'Power BI',
+        'sql server': 'SQL',
+        'transact-sql': 'SQL',
+        't-sql': 'SQL',
+        'amazon web services': 'AWS',
+        'gcp': 'GCP',
+        'google cloud platform': 'GCP',
+        'google cloud': 'GCP',
+        'azure': 'Microsoft Azure', # Padroniza nome da cloud
+        'microsoft azure': 'Microsoft Azure',
+        'excel': 'Excel',
+        'ms excel': 'Excel'
+    }
+
+    for tech in lista_techs:
+        tech_lower = tech.strip().lower()
+        
+        # 1. Verifica se deve expandir
+        if tech_lower in mapa_expansao:
+            nova_lista.extend(mapa_expansao[tech_lower])
+        
+        # 2. Verifica se deve substituir
+        elif tech_lower in mapa_substituicao:
+            nova_lista.append(mapa_substituicao[tech_lower])
+            
+        # 3. Mantém original se não houver regra
+        else:
+            nova_lista.append(tech)
+    
+    # Remove duplicatas finais (Ex: se já tinha Azure e adicionou Azure de novo)
+    return list(set(nova_lista))
+
+# Aplica a normalização nas duas colunas de lista
+if 'tech_stack_lista' in df_raw.columns:
+    df_raw['tech_stack_lista'] = df_raw['tech_stack_lista'].apply(normalizar_techs)
+
+if 'cloud_lista' in df_raw.columns:
+    df_raw['cloud_lista'] = df_raw['cloud_lista'].apply(normalizar_techs)
+
 # --- SIDEBAR (3 FILTROS) ---
 st.sidebar.header("🔍 Filtros de Busca")
 
@@ -91,16 +151,21 @@ col2.metric("Empresas", df_filtered['empresa'].nunique() if 'empresa' in df_filt
 if tipo_selecionado == "Todos":
     # Se não filtrou tipo, mostra qual ganha (Ex: Maioria Remoto)
     label_tipo = "Modelo Predominante"
-    val_tipo = df_filtered['tipo_padronizado'].mode()[0] if not df_filtered.empty else "N/A"
+    mode_tipo = df_filtered['tipo_padronizado'].mode()
+    val_tipo = mode_tipo[0] if not mode_tipo.empty else "N/A"
     col3.metric(label_tipo, val_tipo)
 else:
     # Se já filtrou, mostra o local físico mais comum
-    val_local = df_filtered['local'].mode()[0] if not df_filtered.empty and 'local' in df_filtered.columns else "N/A"
+    val_local = "N/A"
+    if 'local' in df_filtered.columns:
+        mode_local = df_filtered['local'].mode()
+        val_local = mode_local[0] if not mode_local.empty else "N/A"
     col3.metric("Local Principal", val_local)
 
 # Métrica de Salário/Senioridade
 label_info = "Nível Mais Comum"
-val_info = df_filtered['senioridade_simplificada'].mode()[0] if not df_filtered.empty else "N/A"
+mode_info = df_filtered['senioridade_simplificada'].mode()
+val_info = mode_info[0] if not mode_info.empty else "N/A"
 col4.metric(label_info, val_info)
 
 st.divider()

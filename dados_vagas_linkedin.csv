@@ -1,5 +1,5 @@
 data_coleta,titulo,empresa,local,link,senioridade,tech_stack,educacao,tipo,soft_skills,cloud,linguas,descricao_raw,cargo_simplificado,senioridade_simplificada,tipo_padronizado
-2026-01-04,Data Engineer,CodeRoad Inc,Brazil,https://www.linkedin.com/jobs/view/4345788565,Pleno/Sênior (Mínimo 4+ anos de experiência),"['Azure Synapse', 'Azure Data Factory', 'Python', 'Databricks', 'Scala', 'SQL', 'Azure', 'Apache Spark']",N/A,"Contrato (Contractor), 100% Remoto (LATAM)","['Comunicação', 'Colaboração', 'Resolução de Problemas', 'Análise']","['Azure', 'Databricks', 'Azure Data Factory', 'Azure Synapse']",['Inglês'],"Sobre a vaga
+2026-01-04,Data Engineer,CodeRoad Inc,Brazil,https://www.linkedin.com/jobs/view/4345788565,Pleno/Sênior (Mínimo 4+ anos de experiência),"['Azure Synapse', 'Azure Data Factory', 'Python', 'Databricks', 'Scala', 'SQL', 'Azure', 'Apache Spark']",,"Contrato (Contractor), 100% Remoto (LATAM)","['Comunicação', 'Colaboração', 'Resolução de Problemas', 'Análise']","['Azure', 'Databricks', 'Azure Data Factory', 'Azure Synapse']",['Inglês'],"Sobre a vaga
 Data Engineer
 The Team
  We are a leading software provider of Item Chain Management solutions to consumer brand, retail and industrial enterprises around the globe. We also provide development services and support to third-party customers across the globe. 
@@ -36,7 +36,7 @@ Health insurance assistance program.
 Competitive Pay (USD)
 Excellent teamwork and work environment
 Training",Data Engineer,Pleno,Remoto
-2026-01-04,Azure Data Engineer,MSH,Brazil,https://www.linkedin.com/jobs/view/4326001824,Pleno/Sênior (3 a 6 anos de experiência),"['Azure Synapse', 'Azure Data Factory', 'Python', 'Databricks', 'Azure Cosmos DB', 'Azure SQL Database', 'SQL', 'Data Modeling', 'CI/CD', 'Azure']",N/A,Remoto (Full-Time Implícito),"['Comunicação', 'Análise de Problemas', 'Trabalho Colaborativo']","['Azure', 'Azure SQL Database', 'Azure Cosmos DB', 'Azure Synapse', 'Databricks']",['Inglês'],"Sobre a vaga
+2026-01-04,Azure Data Engineer,MSH,Brazil,https://www.linkedin.com/jobs/view/4326001824,Pleno/Sênior (3 a 6 anos de experiência),"['Azure Synapse', 'Azure Data Factory', 'Python', 'Databricks', 'Azure Cosmos DB', 'Azure SQL Database', 'SQL', 'Data Modeling', 'CI/CD', 'Azure']",,Remoto (Full-Time Implícito),"['Comunicação', 'Análise de Problemas', 'Trabalho Colaborativo']","['Azure', 'Azure SQL Database', 'Azure Cosmos DB', 'Azure Synapse', 'Databricks']",['Inglês'],"Sobre a vaga
 Azure Data Engineer
 Location: 100% Remote (EST/CST work hours)
 
@@ -65,9 +65,9 @@ Experience with Python for ETL/ELT scripting.
 Exposure to Azure Synapse, Databricks, or Spark (nice to have but not required).
 Understanding of Azure security, networking, and role-based access controls.
 Background in data modeling and BI/analytics environments.",Data Engineer,Pleno,Remoto
-2026-01-04,Data Engineer,"Pyramid Consulting, Inc",Brazil,https://www.linkedin.com/jobs/view/4343219413,Senior/Especialista (Requer proficiência em 'Expert-level SQL' e experiência com arquitetura de dados e DevOps),"['Python', 'SQL (Expert Level)', 'Data Lakes', 'Lakehouses', 'Data Hubs', 'Kafka', 'AWS Glue', 'Iceberg', 'Parquet', 'Streaming Architectures', 'Flink', 'dbt', 'Airflow', 'SCD (Slowly Changing Dimensions)', 'Schema Evolution', 'Spark', 'Spark UI (Tuning/Debugging)', 'DevOps', 'CI/CD', 'Code Management']",,,"['Data Governance', 'Data Quality', 'Data Privacy', 'Data Security']",['AWS'],[],"Sobre a vaga
-Familiarity with major cloud platforms (AWS)Experience with modern data architectures (data lakes, lakehouses, hubs)Proficiency in ingestion tools (Kafka, AWS Glue) and formats (Iceberg, Parquet)Knowledge of streaming architectures and tools (Kafka, Flink)Strong background in SQL-based frameworks and orchestration tools (dbt, Glue, Airflow). Experience with SCD and schema evolutionFamiliarity with Spark for transformation, streaming, tuning, debugging with Spark UIProficient in Python. Expert-level SQLDemonstrated experience in DevOps practices (code management, CI/CD, deployment)Understanding of governance principles (quality, privacy, security)",,,
-2026-01-04,Senior Data Engineer,Qubika,Brazil,https://www.linkedin.com/jobs/view/4342211998,Senior,"['Python', 'SQL', 'Spark', 'Airflow', 'DBT', 'Databricks', 'BigQuery', 'Redshift', 'Delta Lake', 'PostgreSQL', 'S3', 'Parquet', 'Kafka', 'Kinesis', 'Docker', 'Kubernetes', 'Terraform', 'Git', 'ETL/ELT', 'Data Warehousing', 'Distributed Systems', 'CI/CD', 'IaC (Infrastructure as Code)', 'DevOps practices', 'Real-time data streaming (Nice to Have)', 'Machine learning workflows (Nice to Have)']",N/A (Requer 5+ anos de experiência na área),Data Engineering,"['Colaboração', 'Solução de Problemas', 'Trabalho em equipes multifuncionais', 'Comunicação (Escrita e Verbal)', 'Proatividade em ambientes dinâmicos', 'Experiência com consultoria/cliente (Nice to Have)']","['AWS', 'Google Cloud (GCP)', 'Azure']",['Inglês'],"Sobre a vaga
+2026-01-04,Data Engineer,"Pyramid Consulting, Inc",Brazil,https://www.linkedin.com/jobs/view/4343219413,Senior/Especialista (Requer proficiência em 'Expert-level SQL' e experiência com arquitetura de dados e DevOps),"['AWS', 'Spark UI', 'Kafka', 'dbt', 'SQL-based frameworks', 'Parquet', 'deployment', 'AWS Glue', 'Iceberg', 'Spark', 'Flink', 'DevOps practices', 'Airflow', 'code management', 'CI/CD', 'SQL', 'SCD', 'schema evolution', 'Python']",Não especificado,,[],"['AWS', 'AWS Glue']",['Inglês'],"Sobre a vaga
+Familiarity with major cloud platforms (AWS)Experience with modern data architectures (data lakes, lakehouses, hubs)Proficiency in ingestion tools (Kafka, AWS Glue) and formats (Iceberg, Parquet)Knowledge of streaming architectures and tools (Kafka, Flink)Strong background in SQL-based frameworks and orchestration tools (dbt, Glue, Airflow). Experience with SCD and schema evolutionFamiliarity with Spark for transformation, streaming, tuning, debugging with Spark UIProficient in Python. Expert-level SQLDemonstrated experience in DevOps practices (code management, CI/CD, deployment)Understanding of governance principles (quality, privacy, security)",Data Engineer,Pleno,Remoto
+2026-01-04,Senior Data Engineer,Qubika,Brazil,https://www.linkedin.com/jobs/view/4342211998,Senior,"['Distributed systems', 'Git', 'Docker', 'Infrastructure as code', 'Airflow', 'Python', 'Kinesis', 'CI/CD', 'Kafka', 'Spark', 'Parquet', 'Terraform', 'Databricks', 'Machine learning workflows', 'Delta Lake', 'DBT', 'Kubernetes', 'ETL', 'Data warehousing concepts', 'Azure', 'S3', 'Redshift', 'SQL', 'DevOps practices', 'Google Cloud (GCP)', 'Real-time data streaming', 'ELT', 'AWS', 'BigQuery', 'PostgreSQL']",Não especificado,Data Engineering,"['Comunicação', 'Resolução de problemas', 'Colaboração', 'Trabalho em equipe']","['AWS', 'Google Cloud (GCP)', 'Azure', 'Databricks', 'BigQuery', 'Redshift', 'S3', 'Delta Lake', 'Kinesis', 'Kafka']",['Inglês'],"Sobre a vaga
 We’re looking for experienced and passionate Senior Data Engineers to join our growing team and work on cutting-edge data solutions for a variety of clients across industries. If you're someone who thrives in dynamic environments and enjoys building scalable, reliable, and high-performance data infrastructure, we’d love to hear from you.
 
 What You'll Do
@@ -102,8 +102,8 @@ Experience in real-time data streaming.
 Familiarity with machine learning workflows.
 Previous consulting or client-facing experience.
 
-We have multiple open Data Engineering positions with varying technical requirements depending on the project or client. If this description aligns with your experience, we encourage you to apply — we might have the perfect fit for you!",,,
-2026-01-04,Data Engineer,Insight Global,Brazil,https://www.linkedin.com/jobs/view/4329818405,Mid-Sênior (2-5+ Anos),"['Python', 'SQL', 'Data Warehouses', 'Relational Databases', 'NoSQL', 'Query Optimization', 'Data Pipelines', 'ETL Tools', 'CI/CD', 'YAML', 'PowerShell', 'Terraform']",,Remoto (CLT),"['Comunicação (Verbal e Escrita)', 'Trabalho em Equipe', 'Proatividade Técnica']","['Azure', 'Azure Databricks', 'Azure Data Factory (ADF)', 'ADLS (Azure Data Lake Storage)', 'Azure SQL', 'Azure Synapse']",['Inglês'],"Sobre a vaga
+We have multiple open Data Engineering positions with varying technical requirements depending on the project or client. If this description aligns with your experience, we encourage you to apply — we might have the perfect fit for you!",Data Engineer,Senior,Remoto
+2026-01-04,Data Engineer,Insight Global,Brazil,https://www.linkedin.com/jobs/view/4329818405,Mid-Sênior (2-5+ Anos),"['Synapse', 'E2E Pipelines', 'Complex Queries', 'ETL', 'SQL', 'Python', 'Relational Databases', 'Terraform', 'Data Warehouses', 'Azure SQL', 'Azure Databricks', 'CI/CD', 'NoSQL Databases', 'Azure', 'YAML', 'ADLS', 'PowerShell', 'ADF']",N/A (Certificação em Azure é Nice to Have),Remoto (CLT),"['Comunicação (Verbal e Escrita)', 'Trabalho em Equipe', 'Technology Champion']","['Azure', 'ADLS', 'Azure Databricks', 'ADF', 'Azure SQL', 'Synapse']",['Inglês'],"Sobre a vaga
 This is a fully remote position working for a US client, CLT model and salary range of 16k-20k BRL/mo.
 
 Required Skills & Experience
@@ -123,8 +123,8 @@ Certification in Azure
 
 Job Description
 
-A US client of Insight Global is looking for an Azure Data Engineer to join their team. This person will be assisting the team to create a data warehouse back bone from end-to-end and working with the architect to streamline all processes. Duties will involve creating data pipelines and queries, writing SQL queries from scratch, comparing data, writing analysis, extracting data from existing databases, utilizing Azure Databricks, and working with ETL tools. Both verbal and written communication is a must as this person will be required to work with multiple teams throughout the organization.",,,
-2026-01-04,Engenheiro(a) de Dados – Databricks,UPBI Data & AI,Brazil,https://www.linkedin.com/jobs/view/4343688056,Sólida (Pleno a Sênior),"['Databricks', 'Spark', 'PySpark', 'SQL', 'Pipelines de Dados', 'ETL/ELT', 'Modelagem de Dados para Analytics (Bronze, Silver, Gold)', 'Delta Lake', 'Data Lake/Lakehouse', 'Orquestração de Dados', 'Governança e Qualidade de Dados', 'Versionamento (Engenharia de Dados)']",,PJ (Pessoa Jurídica) | Híbrido,"['Comunicação', 'Consultoria Técnica', 'Interface com Times de Negócio', 'Otimização de Performance', 'Contribuição com Boas Práticas']",['Azure'],[],"Sobre a vaga
+A US client of Insight Global is looking for an Azure Data Engineer to join their team. This person will be assisting the team to create a data warehouse back bone from end-to-end and working with the architect to streamline all processes. Duties will involve creating data pipelines and queries, writing SQL queries from scratch, comparing data, writing analysis, extracting data from existing databases, utilizing Azure Databricks, and working with ETL tools. Both verbal and written communication is a must as this person will be required to work with multiple teams throughout the organization.",Data Engineer,,Remoto
+2026-01-04,Engenheiro(a) de Dados – Databricks,UPBI Data & AI,Brazil,https://www.linkedin.com/jobs/view/4343688056,Sólida (Pleno a Sênior),"['Data Lake/Lakehouse', 'Modelagem de Dados (Bronze, Silver, Gold)', 'SQL', 'Orquestração de Dados', 'Spark', 'Pipelines de Dados', 'Delta Lake', 'Databricks', 'ETL/ELT', 'Azure', 'PySpark']",Não mencionado,PJ (Pessoa Jurídica) | Híbrido,"['Comunicação', 'Atuação em consultoria', 'Interface com times técnicos e de negócio']",['Azure'],Não mencionado,"Sobre a vaga
 Engenheiro(a) de Dados – Databricks
 
 Modelo híbrido | 3x por semana presencial Bela Vista/SP 2x home office | PJ
@@ -165,8 +165,8 @@ Modelo de Contratação:
 
 Regime PJ
 Modelo híbrido: 3 dias presenciais por semana, 2x home office
-Local: Bela Vista – São Paulo/SP",,,
-2026-01-04,Azure Data Engineer,Penta Consulting,Brazil,https://www.linkedin.com/jobs/view/4342917446,Data Architect / Sênior (Com experiência comprovada),"['ETL/ELT', 'Data Architecture Design (End-to-End)', 'Big Data Processing', 'Analytics Workflows', 'Machine Learning Concepts', 'Data Modeling', 'Data Warehousing', 'Data Governance', 'Microsoft Fabric', 'DevOps', 'CI/CD', 'Infrastructure-as-Code']",,Remoto no Brasil (Serviços e Workshops),"['Comunicação Profissional (Escrita e Oral)', 'Orientação a Clientes Premier Enterprise', 'Habilidade de Workshop/Treinamento']","['Microsoft Azure', 'Azure Data Factory', 'Azure Data Lake', 'Azure Databricks', 'Azure SQL', 'Azure Machine Learning (Azure ML)', 'Azure Foundry']","['Português', 'Inglês (Profissional Escrito e Oral)']","Sobre a vaga
+Local: Bela Vista – São Paulo/SP",Data Engineer,,Híbrido
+2026-01-04,Azure Data Engineer,Penta Consulting,Brazil,https://www.linkedin.com/jobs/view/4342917446,Data Architect / Sênior (Com experiência comprovada),"['Data Modeling', 'Infrastructure-as-Code', 'Data Governance', 'Data Warehousing', 'Microsoft Azure', 'Azure Data Factory', 'Data Lake', 'SQL', 'Big Data Processing', 'Azure Foundry', 'Machine Learning Concepts', 'Azure SQL', 'Azure Machine Learning (Azure ML)', 'Azure Databricks', 'ETL/ELT', 'DevOps', 'Microsoft Fabric', 'CI/CD']",N/A (Foco em experiência profissional comprovada),Remoto no Brasil (Serviços e Workshops),['Comunicação (Escrita e Oral)'],"['Microsoft Azure', 'Azure Data Factory', 'Azure Databricks', 'Azure SQL', 'Azure Machine Learning (Azure ML)', 'Azure Foundry', 'Data Lake', 'Microsoft Fabric']","['Português', 'Inglês']","Sobre a vaga
 We are currently looking for a Portuguese speaking Data Engineer to work across Microsoft Azure solutions in delivering proactive services and workshops to premier enterprise customers in remotely in Brazil. 
 
 Key Responsibilities
@@ -188,8 +188,8 @@ Familiarity with DevOps practices, CI/CD pipelines, and infrastructure-as-code.
 
 If you are interested in working with premier enterprise businesses across The Americas, then please apply!
 
-Successful candidates will be contacted within 2 weeks of applying",,,
-2026-01-04,Machine Learning Engineer,Canals,Brazil,https://www.linkedin.com/jobs/view/4343344309,Sênior (Senior-level Machine Learning Engineer),"['Python', 'scikit-learn', 'PyTorch', 'TensorFlow', 'Pandas', 'Spark', 'Data Pipelines Escaláveis', 'Desenvolvimento e Deploy de Modelos ML em Produção', 'MLOps (Plus)']",,"Full-time, Remoto (Américas do Norte e do Sul)","['Liderança Técnica e Mentoria', 'Revisão de Código (Code Review) e Feedback Arquitetural', 'Propriedade (Ownership) de Projetos End-to-End', 'Colaboração Interdisciplinar', 'Foco em Qualidade, Performance e Reprodutibilidade', 'Trabalho Autônomo em Ambientes Dinâmicos (Fast-paced)']",[],['Inglês'],"Sobre a vaga
+Successful candidates will be contacted within 2 weeks of applying",Data Engineer,,Remoto
+2026-01-04,Machine Learning Engineer,Canals,Brazil,https://www.linkedin.com/jobs/view/4343344309,Sênior (Senior-level Machine Learning Engineer),"['MLOps', 'PyTorch', 'Python', 'Spark', 'scikit-learn', 'Pandas', 'TensorFlow']",,"Full-time, Remoto (Américas do Norte e do Sul)","['Liderança Técnica', 'Mentoria', 'Ownership', 'Colaboração', 'Foco em Qualidade', 'Independência']",[],['Inglês'],"Sobre a vaga
 About Canals
 
 Canals is a fully remote, profitable startup transforming the industrial supply chain ($10T industry) with AI. Our platform seamlessly integrates with the systems distributors already use, automating tedious tasks and reducing failure points in moving physical goods across the globe.
@@ -230,8 +230,8 @@ Remote-first, flexible work environment across North and South America.
 Stellar product-market fit with tons of customer love
 All star team with diverse backgrounds to collaborate with and learn from
 
-Canals.ai is an equal opportunity employer. In addition to EEO being the law, it is a policy that is fully consistent with our principles. All qualified applicants will receive consideration for employment without regard to status as a protected veteran or a qualified individual with a disability, or other protected status such as race, religion, color, national origin, sex, sexual orientation, gender identity, genetic information, pregnancy or age.",,,
-2026-01-04,Machine Learning Engineer,JetBridge AI,Brazil,https://www.linkedin.com/jobs/view/4346860266,Senior IC (Individual Contributor) / Machine Learning Engineer,"['Python', 'Pandas', 'NumPy', 'scikit-learn', 'SQL', 'XGBoost', 'LightGBM', 'Predictive Modeling', 'Anomaly Detection', 'Time Series Analysis', 'Forecasting', 'Feature Engineering', 'Model Evaluation', 'Model Interpretability (SHAP-style analysis)']",,Full-Time,"['Independência', 'Forte Intuição Estatística', 'Colaboração (Parceria com times de produto e analytics)', 'Orientação a Insights Acionáveis']",[],['Inglês'],"Sobre a vaga
+Canals.ai is an equal opportunity employer. In addition to EEO being the law, it is a policy that is fully consistent with our principles. All qualified applicants will receive consideration for employment without regard to status as a protected veteran or a qualified individual with a disability, or other protected status such as race, religion, color, national origin, sex, sexual orientation, gender identity, genetic information, pregnancy or age.",Machine Learning Engineer,,Remoto
+2026-01-04,Machine Learning Engineer,JetBridge AI,Brazil,https://www.linkedin.com/jobs/view/4346860266,Senior IC (Individual Contributor) / Machine Learning Engineer,"['LightGBM', 'SQL', 'SHAP (Style Analysis)', 'Python', 'NumPy', 'scikit-learn', 'Pandas', 'XGBoost']",N/A (Requer 4-7 anos de experiência como ML Engineer ou Applied Data Scientist),Full-Time,"['Forte Intuição Estatística', 'Confortável operando de forma independente (Senior IC)']",[],['Inglês (Implícito pelo contexto e requisito de vídeo)'],"Sobre a vaga
 Build a drug access platform for a fast-growing, profitable health-tech company, where your machine learning models directly detect and prevent drug-access failures, helping millions of insured Americans actually receive the medications their benefits promise.
 
 We’re hiring a Machine Learning Engineer to work on applied predictive modeling and anomaly detection across complex, high-volume healthcare program data. This is a hands-on, senior IC role focused on turning messy real-world signals into clear, actionable insights that improve medication access across the U.S. healthcare system.
@@ -270,8 +270,8 @@ Video question:
 Submit your video here: 
 https://sendspark.com/request/JB/kdoi6s0yugc8xuhe91f8gvg9a9c9njl2
 
-*Applications that submitted a 60-second video answering the question will be given the highest priority. Only our most Senior HR Manager will watch your video and delete it afterward. We review 100% of the videos submitted.",,,
-2026-01-04,Machine Learning Engineer,Mindbody,Brazil,https://www.linkedin.com/jobs/view/4221533508,Mid-Level,"['Python', 'SQL', 'Machine Learning (ML)', 'Desenvolvimento e Deploy de Modelos em Produção', 'MLOps', 'Engenharia de Dados (Data Engineering)', 'Data Pipelines', 'Código Limpo, Testável e Escalável']",,N/A (Presume-se Full-Time),"['Comunicação Excelente (Escrita e Verbal)', 'Curiosidade Intelectual', 'Pró-atividade/Bias for Action', 'Foco em Resultados (Results-Driven)', 'Intuição de Negócios (Business Intuition)', 'Colaboração e Peer Reviews']",[],['Inglês'],"Sobre a vaga
+*Applications that submitted a 60-second video answering the question will be given the highest priority. Only our most Senior HR Manager will watch your video and delete it afterward. We review 100% of the videos submitted.",Machine Learning Engineer,,
+2026-01-04,Machine Learning Engineer,Mindbody,Brazil,https://www.linkedin.com/jobs/view/4221533508,Mid-Level,"['Desenvolvimento de Modelos em Produção', 'SQL', 'Machine Learning (ML)', 'Python', 'Engenharia de Dados (Integração de Múltiplas Fontes)', 'Model Pipelines', 'Data Manipulation']",N/A (Foco em experiência: 2+ anos hands-on),N/A (Presume-se Full-Time),"['Comunicação (Escrita e Verbal)', 'Colaboração', 'Curiosidade Intelectual', 'Bias for Action', 'Intuição de Negócios', 'Foco em Resultados', 'Proatividade', 'Resolução de Problemas']",[],['Inglês'],"Sobre a vaga
 At Playlist, life's richest moments happen when people step away from screens to move, connect, explore, and play. We're building the definitive platform for intentional living, connecting people with inspiring experiences in fitness, wellness, and beyond. With popular brands like Mindbody and ClassPass, Playlist empowers businesses and individuals, making it effortless for aspirations to become actions. Join us in reshaping technology's role to foster meaningful, real-world connections.
 
 Mindbody equips wellness entrepreneurs with technology to support thriving businesses and create exceptional experiences. Innovation and curiosity drive our culture, connecting businesses and individuals through cutting-edge solutions. Join us if you're passionate about enhancing wellness through technology.
@@ -304,8 +304,8 @@ Playlist is an Equal Opportunity Employer. We highly value diversity at our comp
 
 By entering your email and phone number and submitting your application, you consent to receive emails, calls and SMS about your application and other roles at Playlist, including by auto-dialer. Message and data rates may apply. Opt-out or text STOP to cancel at any time. If you are a California resident or reside outside the United States then by submitting your application you confirm that you have read, understood, agree and - where applicable - grant your prior, free, informed and express consent for the processing of your personal information, including sensitive personal information, as described in our California Applicant Privacy Notice or International Applicant Privacy Notice (as applicable).
 
-Note: This description outlines key responsibilities but isn’t intended to cover every task or duty. Additional responsibilities may be assigned as needed to support the team and business goals.",,,
-2026-01-04,AI/ML Engineer Specialist - Freelance Project,"Meridial Marketplace, by Invisible",Brazil,https://www.linkedin.com/jobs/view/4334622167,Mid-level/Experienced (Mínimo de 2 anos),"['Python', 'Pandas', 'NumPy', 'scikit-learn', 'PyTorch', 'TensorFlow', 'Spark', 'Machine Learning (ML)', 'Deep Learning', 'NLP', 'Reinforcement Learning', 'Time Series Analysis', 'Regression Models', 'Classification Models', 'Recommendation Systems', 'Model Deployment (Prototype to Production)', 'Model Evaluation', 'Experimental Design', 'Data Debugging', 'Clean Code']",N/A (Foco em 2+ anos de experiência prática),Contrato (Contractor),"['Colaboração', 'Comunicação com Stakeholders', 'Resolução de Problemas (Ambiguidade)', 'Tradução de Insights Técnicos', 'Proatividade em Inovação']","['GCP', 'AWS', 'Cloud Environments (similar)', 'Databricks (Plus)']",['Inglês'],"Sobre a vaga
+Note: This description outlines key responsibilities but isn’t intended to cover every task or duty. Additional responsibilities may be assigned as needed to support the team and business goals.",Machine Learning Engineer,,
+2026-01-04,AI/ML Engineer Specialist - Freelance Project,"Meridial Marketplace, by Invisible",Brazil,https://www.linkedin.com/jobs/view/4334622167,Mid-level/Experienced (Mínimo de 2 anos),"['AWS', 'PyTorch', 'Classification', 'NLP', 'Python', 'Spark', 'Recommendation', 'NumPy', 'GCP', 'scikit-learn', 'Reinforcement Learning', 'Time Series', 'Regression', 'Databricks', 'Pandas', 'TensorFlow']",,Contrato (Contractor),"['Colaboração', 'Comunicação', 'Resolução de Problemas', 'Design Experimental']","['GCP', 'AWS', 'Databricks']",,"Sobre a vaga
 What You’ll Do
 
 Design and deliver machine learning solutions that combine modern research with practical deployment. Working across industries and use cases, contribute to building robust models that power client-facing tools and internal platforms.
@@ -335,8 +335,8 @@ We offer a pay range of $30+ per hour, with the exact rate determined after eval
 
 Important
 
-All candidates must pass an interview as part of the contracting process.",,,
-2026-01-04,AI Engineer,Dry Ground AI,Brazil,https://www.linkedin.com/jobs/view/4350965651,"Pleno/Sênior (2+ anos de experiência, com responsabilidades de mentoria e liderança técnica)","['Python', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'Hugging Face Transformers', 'LLMs (Large Language Models)', 'GPT', 'BERT', 'Generative AI', 'Transformer-based architectures', 'LangChain', 'LangGraph', 'LangSmith', 'LangFuse', 'n8n', 'ElevenLabs', 'OpenAI', 'Stable Diffusion', 'REST APIs', 'Processamento de Linguagem Natural (NLP)', 'Automação de workflows', 'Data pipelines (Preprocessing e Feature Engineering)', 'Prompt Engineering', 'Context Engineering', 'MLOps (Model versioning, CI/CD, Monitoring) (Preferencial)', 'Microsoft Copilot Studio (Preferencial)', 'PowerApps (Preferencial)', 'PowerAutomate (Preferencial)', 'Reinforcement learning (Preferencial)', 'GANs (Generative Adversarial Networks) (Preferencial)', 'Edge AI deployments (Preferencial)', 'Apache Spark (Preferencial)', 'Ray (Preferencial)']",N/A (Foco em experiência prática),Remoto (Full-time implícito),"['Versatilidade', 'Pensamento Sistêmico (Systems thinking)', 'Colaboração Interfuncional', 'Liderança Técnica', 'Mentoria', 'Análise de dados', 'Habilidade para traduzir problemas de negócio em soluções técnicas']",['Familiaridade com plataformas de AI/ML baseadas em Nuvem'],[],"Sobre a vaga
+All candidates must pass an interview as part of the contracting process.",Machine Learning Engineer,Especialista,Remoto
+2026-01-04,AI Engineer,Dry Ground AI,Brazil,https://www.linkedin.com/jobs/view/4350965651,"Pleno/Sênior (2+ anos de experiência, com responsabilidades de mentoria e liderança técnica)","['REST APIs', 'PowerAutomate', 'NLP', 'Ray', 'n8n', 'LangSmith', 'Microsoft Copilot Studio', 'ElevenLabs', 'GPT', 'Hugging Face Transformers', 'BERT', 'PyTorch', 'GANs', 'Python', 'Stable Diffusion', 'cloud-based AI/ML platforms', 'LLMs', 'Spark', 'Scikit-learn', 'LangGraph', 'LangFuse', 'PowerApps', 'CI/CD', 'TensorFlow', 'CMS integrations', 'MLOps', 'OpenAI', 'LangChain']",N/A (Foco em 2+ anos de experiência prática),Remoto (Full-time implícito),"['Versatilidade', 'Liderança Técnica', 'Mentoria', 'Colaboração interfuncional', 'Pensamento Sistêmico', 'Forte Habilidade Analítica', 'Tradução de Problemas de Negócio para Soluções Técnicas', 'Entrega de Soluções voltadas para o Cliente (client-facing)']",['cloud-based AI/ML platforms'],['N/A (Implícito: Inglês)'],"Sobre a vaga
 Position Overview
  We are seeking a versatile and highly skilled AI Engineer to join our fast-growing Full-Stack AI Solutions company. This role blends the expertise of building cutting-edge AI/ML models with the practical know-how of automation and agentic system integrations. You will design, develop, deploy, and optimize intelligent solutions that leverage the power of generative AI, automation platforms, and agent-based systems to enhance client operations, streamline workflows, and deliver measurable results.
  This is a unique opportunity to work across a diverse range of technologies—from fine-tuning transformer models to building real-world AI-powered automation stacks. If you’re passionate about pushing the boundaries of AI while creating real value through systems thinking and practical implementation, this role is for you.
@@ -382,8 +382,8 @@ Work Environment & Benefits
 Competitive salary and performance-based incentives.
 Flexible work environment: Remote-first.
 Collaborative, innovation-driven culture with a commitment to personal and professional growth.
-Opportunity to work at the forefront of AI innovation across industries and verticals.",,,
-2026-01-04,Machine Learning Engineer,Oowlish,Brazil,https://www.linkedin.com/jobs/view/4329186678,Pleno/Sênior (Especialista),"['Machine Learning', 'Inteligência Artificial (IA)', 'Desenvolvimento de Soluções de IA', 'Modelagem de Machine Learning', 'Validação de Modelos', 'Implementação em Produção (MLOps)', 'Monitoramento de Desempenho de Modelos', 'Versionamento']","Formação em Engenharia, Ciência da Computação, Ciência de Dados ou áreas relacionadas",Remoto,"['Capacidade Analítica', 'Resolução de Problemas', 'Autonomia', 'Orientação a Resultados', 'Proatividade', 'Boa Comunicação', 'Trabalho em Equipe']",[],['Inglês'],"Sobre a vaga
+Opportunity to work at the forefront of AI innovation across industries and verticals.",Machine Learning Engineer,,Remoto
+2026-01-04,Machine Learning Engineer,Oowlish,Brazil,https://www.linkedin.com/jobs/view/4329186678,Pleno/Sênior (Especialista),[],"Formação em Engenharia, Ciência da Computação, Ciência de Dados ou áreas relacionadas",Remoto,"['Comunicação', 'Trabalho em equipe', 'Capacidade analítica', 'Resolução de problemas', 'Proativo', 'Autônomo', 'Orientado a resultados']",[],['Inglês'],"Sobre a vaga
 Venha fazer parte do nosso time na Oowlish!
 
 Está em busca de uma oportunidade para elevar sua carreira ao próximo nível no cenário tecnológico? A Oowlish, uma das empresas de desenvolvimento de software que mais cresce na América Latina, procura por especialistas em tecnologia para reforçar nosso time dinâmico e multicultural.
@@ -447,7 +447,7 @@ Oowlish Fitness com Total Pass;
 
 Jogos e Competições;
 
-We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",,,
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",Machine Learning Engineer,,Remoto
 2026-01-04,Artificial Intelligence Engineer,Foursys,Brazil,https://www.linkedin.com/jobs/view/4343774626,,"['Python', 'Machine Learning', 'Inteligência Artificial (IA)', 'Pandas', 'Flask', 'RAG (Retrieval-Augmented Generation)', 'ETL', 'Integração de dados', 'MLflow', 'OpenTelemetry', 'LangGraph', 'Scikit-learn', 'Visual Basic (Diferencial)', 'Metodologia Ágil', 'Scrum']",,Híbrido,"['Boa comunicação', 'Trabalho em equipe', 'Proatividade', 'Agilidade', 'Capacidade analítica', 'Senso de responsabilidade', 'Facilidade para atuar em ambientes colaborativos e dinâmicos']",[],[],"Sobre a vaga
 A Foursys é um time apaixonado por inovação, design e transformação digital. Somos globais, somos GPTW.
 
@@ -501,7 +501,7 @@ Descontos em escolas e plataformas de idiomas.
 E aí, aceita o desafio?
 
 Então conclua sua candidatura e #VemSerFoursys!
-Boa sorte!",,,
+Boa sorte!",Machine Learning Engineer,,
 2026-01-04,Senior Data Scientist,Teramind,Brazil,https://www.linkedin.com/jobs/view/4348482735,Senior Data Scientist,"['Python', 'SQL', 'TensorFlow', 'PyTorch', 'Scikit-learn', 'XGBoost', 'Spark', 'BigQuery', 'ML Pipelines (End-to-End)', 'Modelagem de Comportamento', 'Predição Comportamental', 'Detecção de Anomalias', 'Risk Scoring', 'Transformer Architectures', 'Otimização de Modelos (Latência, Eficiência)', 'Estatística', 'Inferência Causal', 'Design Experimental', 'A/B Testing']","Mestrado em disciplina quantitativa (Estatística, Engenharia, Ciência da Computação) ou experiência equivalente",Remoto,"['Inovação', 'Resourcefulness', 'Autonomia', 'Colaboração', 'Adaptabilidade', 'Experimentação Rápida', 'Resolução de Ambiguidade', 'Parceria com Produto e Engenharia']",[],['Inglês'],"Sobre a vaga
 About Teramind
 
@@ -559,7 +559,7 @@ All roles require reference and background checks
 
 Teramind is an equal opportunity/affirmative action employer. All qualified applicants will receive consideration without regard to race, age, religion, color, marital status, national origin, gender, gender identity or expression, sexual orientation, disability, or veteran status.
 
-We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",,,
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.",Data Scientist,Senior,
 2026-01-04,DATA SCIENTIST PL,Stone,Brazil,https://www.linkedin.com/jobs/view/4348862746,Data Scientist (Requer experiência prévia em Análise/Ciência de Dados e Modelagem),"['Python', 'SQL', 'Pandas', 'Scikit-learn', 'XGBoost', 'Modelagem Estatística', 'Algoritmos de Aprendizado de Máquina', 'Treinamento Supervisionado', 'Treinamento Não Supervisionado', 'Engenharia e Seleção de Features', 'Análise Univariada/Bivariada/Multivariada', 'Redução de Dimensionalidade', 'Feature Scaling', 'Balanceamento de Dados', 'Tunning de Hiperparâmetros', 'Avaliação e Comparação de Modelos', 'Testes A/B (Experimentos)', 'Detecção de Fraudes', 'Detecção de Anomalias', 'Redes Neurais (Diferencial)', 'NLP (Diferencial)', 'Sistemas de Recomendação (Diferencial)', 'Séries Temporais (Diferencial)']",,,"['Espírito de Dono (Own It)', 'Autonomia', 'Proatividade', 'Perfil Analítico Forte', 'Capacidade Investigativa', 'Data Storytelling (Transformar análises em narrativas claras)', 'Colaboração (Team Play)', 'Transparência (No Bullshit)', 'Orientação ao Cliente']","['AWS', 'GCP', 'Ecossistemas de Big Data (Ex: Databricks, Spark)']",[],"Sobre a vaga
 Nossa cultura:
 Por aqui, vivemos nossa cultura no dia a dia, guiados por esses 5 pilares:
@@ -655,7 +655,7 @@ E pra ficar por dentro de todas as novidades, é só nos seguir no Twitter.
 
 
 
-*Além das vagas afirmativas, todas as vagas Stone também são destinadas a pessoas com deficiência.",,,
+*Além das vagas afirmativas, todas as vagas Stone também são destinadas a pessoas com deficiência.",Data Scientist,Pleno,
 2026-01-04,Senior Data Scientist,Tata Consultancy Services,Brazil,https://www.linkedin.com/jobs/view/4346790735,Senior Data Scientist,"['Python', 'Machine Learning', 'Deep Learning', 'GenAI', 'LLMs', 'Prompt Engineering', 'multimodal models', 'TensorFlow', 'PyTorch', 'Pandas', 'NumPy', 'Scikit-learn', 'SQL', 'bancos de dados relacionais', 'bancos de dados não-relacionais', 'MLOps (Best Practices)', 'CI/CD', 'Data Pipelines', 'manuseio de grandes volumes de dados']","Bacharelado em Ciência da Computação, Engenharia, Estatística, Matemática, ou áreas relacionadas.",,"['Liderança Técnica', 'Mentoria de Equipe', 'Colaboração', 'Tradução de necessidades de negócio (Stakeholder collaboration)', 'Documentação']","['AWS', 'S3', 'Lambda', 'SageMaker', 'EC2', 'IAM']",[],"Sobre a vaga
 Come to one of the biggest IT Services companies in the world!! Here you can transform your career! 
  Why to join TCS? Here at TCS we believe that people make the difference, that's why we live a culture of unlimited learning full of opportunities for improvement and mutual development. The ideal scenario to expand ideas through the right tools, contributing to our success in a collaborative environment. 
@@ -706,7 +706,7 @@ Xcelerate – Free Mentoring Career Platform
 
 #Buildingonbelief 
 
-ID: 10470412",,,
+ID: 10470412",Data Scientist,Senior,
 2026-01-04,Data Scientist,Ascendion,Brazil,https://www.linkedin.com/jobs/view/4328096527,Senior (6-7 years experience),"['Data Science', 'Machine Learning (ML)', 'Artificial Intelligence (AI)', 'LLMs', 'Generative AI', 'Python', 'LLM Output Evaluation (Manual/Automated)', 'LLM-as-a-Judge', 'LLM-as-a-Jury', 'ChatGPT', 'Claude', 'Mistral', 'AI Evaluation Metrics', 'Quality Frameworks', 'LLMOps', 'AI Monitoring']",,Contract,"['Strong communication skills', 'collaborative mindset', 'Interest in AI safety', 'reliability', 'responsible AI processes']","['AWS', 'Lambda', 'EC2', 'S3', 'SQS', 'SNS']",[],"Sobre a vaga
 About Ascendion
 Ascendion is a full-service digital engineering solutions company. We make and manage software platforms and products that power growth and deliver captivating experiences to consumers and employees. Our engineering, cloud, data, experience design, and talent solution capabilities accelerate transformation and impact for enterprise clients. Headquartered in New Jersey, our workforce of 6,000+ Ascenders delivers solutions from around the globe. Ascendion is built differently to engineer the next.
@@ -753,7 +753,7 @@ Nice to Haves:
 
 Experience with AI evaluation metrics or quality frameworks.
 Familiarity with LLMOps or AI monitoring.
-Interest in AI safety, reliability, and responsible AI processes.",,,
+Interest in AI safety, reliability, and responsible AI processes.",Data Scientist,,
 2026-01-04,Data Scientist,IFIT Solutions,Brazil,https://www.linkedin.com/jobs/view/4346569953,Sênior,"['PySpark (Avançado)', 'Estatística Aplicada', 'A/B Testing', 'Experiment Design', 'Modular Coding', 'Scalable Code']",,"PJ, Remoto, Long Term","['Comunicação', 'Capacidade de Articulação', 'Proatividade', 'Business Acumen (Tradeoffs)']",[],['Inglês (Avançado)'],"Sobre a vaga
 Currently looking for a Data Scientist with experience in :
 
@@ -764,8 +764,8 @@ Remote
 Long Term
 PJ contract
 
-Send cv in english",,,
-2026-01-04,Especialista de Inteligência de Dados,Privalia,Brazil,https://www.linkedin.com/jobs/view/4350692627,Especialista,"['Power BI', 'Tableau', 'Google Data Studio', 'SQL', 'Banco de dados relacionais', 'Python', 'R', 'Excel avançado', 'Google Sheets avançado', 'Big Data', 'Green Belt', 'Lean Six Sigma', 'KPIs', 'OKRs', 'Sistemas ERP/Produção', 'Automação de processos de dados', 'Governança de dados']","Ensino superior completo (Administração, Engenharia, Estatística, Economia, Ciência de Dados). Pós-graduação/MBA em Business Intelligence, Analytics ou Gestão de Operações (Diferencial).",Presencial,"['Pensamento Estratégico', 'Comunicação e Parceria Interfuncional', 'Foco em Eficiência Operacional', 'Apoio à Tomada de Decisão']",[],[],"Sobre a vaga
+Send cv in english",Data Scientist,,
+2026-01-04,Especialista de Inteligência de Dados,Privalia,Brazil,https://www.linkedin.com/jobs/view/4350692627,Especialista,"['Google Data Studio', 'Looker', 'Big Data', 'SQL', 'Lean Six Sigma', 'Python', 'R', 'Excel', 'Power BI', 'ERP/Produção', 'banco de dados relacionais', 'Green Belt', 'Google Sheets', 'Data Analytics', 'Tableau']","Ensino superior em Administração, Engenharia, Estatística, Economia ou Ciência de Dados",Presencial,"['Visão Estratégica', 'Apoio à tomada de decisão', 'Colaboração', 'Comunicação', 'Proatividade', 'Pensamento analítico']",[],"['Português', 'Inglês']","Sobre a vaga
 Como Especialista de Inteligência de Dados você será responsável pela atuação de forma estratégica na gestão e análise de dados da área de Produção. 
 Será responsável por transformar informações em insights acionáveis, garantindo maior eficiência operacional, apoio à tomada de decisão e desenvolvimento de soluções que fortaleçam a inteligência do negócio.
 
@@ -830,7 +830,7 @@ Encerramos a semana com leveza e integração. Um momento para relaxar e se cone
 Manicure, snacks, barbeiro, quick massage, ginástica laboral, frutas, food truck (o famoso Corujinha!) e muito mais pra deixar sua rotina mais prática e gostosa.
 
 O que você está esperando para se juntar a nós?
-Challenge yourself! #TodayCanBeSpecial",,,
+Challenge yourself! #TodayCanBeSpecial",,Especialista,Presencial
 2026-01-04,Engenheiro de Dados - Remoto,Getronics,Brazil,https://www.linkedin.com/jobs/view/4347474422,,"['Programação', 'Tratamento de Dados', 'Python', 'PySpark', 'SQL', 'HUE', 'Hive', 'Spark', 'SparkML', 'NIFI', 'DB2', 'MySQL', 'Oracle', 'Dbeaver', 'Modelagem de Dados', 'Erwin', 'Git']",,Remoto,[],[],[],"Sobre a vaga
 A Getronics é líder global em soluções de tecnologia, com uma equipe de mais de 4.000 colegas em 22 países, fornecendo serviços abrangentes de ponta a ponta em todo o mundo. Temos o compromisso de oferecer um atendimento excepcional ao cliente, para permitir que eles se concentrem em seus principais pontos fortes, enquanto confiam suas necessidades de TI à Getronics. Temos uma oportunidade incrível para você se juntar à nossa equipe, na seguinte vaga: Engenheiro de Dados - Remoto.
 
@@ -876,4 +876,731 @@ Banco de Dados:
 • Versionamento de código (Git)
 
 O que fazer em seguida:
-Caso você seja a pessoa que estamos procurando, aguarde nosso contato para te conhecermos melhor e siga as instruções durante o processo seletivo. Se você gostaria de fazer alguma pergunta sobre nossas vagas, sobre a Getronics como empresa ou qualquer outra coisa, por favor, não hesite em entrar em contato. A equipe de RH estará disponível no e-mail recrutamento@getronics.com.",,,
+Caso você seja a pessoa que estamos procurando, aguarde nosso contato para te conhecermos melhor e siga as instruções durante o processo seletivo. Se você gostaria de fazer alguma pergunta sobre nossas vagas, sobre a Getronics como empresa ou qualquer outra coisa, por favor, não hesite em entrar em contato. A equipe de RH estará disponível no e-mail recrutamento@getronics.com.",Data Engineer,,Remoto
+2026-01-12,Banco de Talentos | Atacado Itaú,Itaú Unibanco,Brazil,https://www.linkedin.com/jobs/view/4306655930,[],,,[],[],[],"Sobre a vaga
+Venha fazer a diferença no maior banco privado da América Latina. Somos a instituição financeira feita com milhões de pessoas ao redor do mundo e acreditamos que a diversidade dos nossos times é fundamental para que possamos construir soluções inovadoras e adequadas para cada um dos nossos clientes. Por isso, estamos em busca de talentos para integrar nosso quadro de itubers (colaboradores do Itaú).
+
+Conheça As Estruturas Que Compõem o Atacado
+
+O Itaú BBA é o maior Corporate & Investment Bank da América Latina. Atendemos investidores institucionais e empresas com faturamento anual acima de R$ 30 milhões. Pela complexidade dos negócios desses clientes, sabemos que nossa atuação deve ser customizada. Temos um portfólio de investimentos em ativos, assessoria em fusões e aquisições, oferta de ações, securitização, derivativos, operações estruturadas, cash management, financiamentos e garantias, entre outros. São soluções desenhadas por uma equipe de especialistas com base no perfil e necessidades de cada empresa.
+
+Em Wealth Management and Services somos responsáveis pela jornada de investimentos dos nossos clientes, olhando desde a gestão de recursos próprios ou de terceiros em Asset Management, Fund of Funds e Kinea, passando pela estruturação e evolução dos nossos produtos e serviços, até o relacionamento com nossos clientes, sejam eles pessoas físicas de alta renda no Private Bank e na assessoria de investimentos Íon, ou clientes institucionais.
+
+A área de Global Markets & Treasury é responsável pela conexão dos nossos clientes com o mercado, viabilizando o acesso deles aos produtos financeiros. Temos a missão de garantir uma oferta competitiva, inovadora e focada nas necessidades das empresas, cultivando o foco na excelência de atendimento e encantamento dos nossos clientes para gerar resultados.
+
+O Que Estamos Buscamos
+
+Estamos buscando por pessoas que queiram se desenvolver e aprender constantemente, compartilhando, colaborando, inovando e entregando valor para todos os nossos clientes.
+
+Como um futuro Ituber, é importante que você seja colaborativo (aqui a gente vai de turma!) para construir soluções e proporcionar melhoria contínua na jornada dos nossos produtos. Temos oportunidades em diversas áreas do banco de Atacado e precisamos do seu talento para contribuir com a transformação que buscamos.
+
+Curtiu? Então, Vamos de turma?
+
+Com quais benefícios vou poder contar?
+
+Vale Transporte
+Vale Refeição (Restaurantes) / Vale Alimentação (Supermercados)
+Convênio médico e odontológico
+Seguro de Vida
+PLR (Mediante resultados do banco)
+Previdência privada
+Descontos exclusivos em nossos produtos financeiros
+Licença maternidade estendida
+Auxílio Creche / Babá (para papais e mamães)
+Incentivo a estudos
+Gym Pass (Mas se preferir temos Bio Ritmo em alguns polos)
+Acesso aos Clubes Itaú (Guarapiranga / Itanhaém e São Sebastião)
++ Algumas vantagens que você pode conhecer durante o processo 😊
+
+O Itaú estimula candidaturas de pessoas com deficiência em todas as nossas posições, sendo assim, sinta-se à vontade para se candidatar em vagas sinalizadas como exclusivas ou não para pessoas com deficiência. Somos comprometidos com a inclusão e valorizamos a diversidade.
+
+O Itaú irá utilizar os dados fornecidos para fins de processos seletivos, inclusive em bancos de vagas alocados em plataformas terceiras. Caso deseje solicitar oposição a este uso, ou exercer quaisquer um dos seus direitos, entre em contato através de nossos canais, disponíveis na Política de Privacidade de candidatos do Itaú Unibanco (https://www.itau.com.br/privacidade/candidatos/). Não há necessidade de aceitar, trata-se apenas de uma ciência.",,,,
+2026-01-12,Engenheiro de Analytics Júnior,Petlove,Brazil,https://www.linkedin.com/jobs/view/4346607280,[],,,[],[],[],"Sobre a vaga
+O time de Analytics & Data Engineering é responsável por garantir a construção, manutenção e confiabilidade dos dados utilizados pela empresa, apoiando análises, modelos analíticos e a tomada de decisão baseada em dados. Essa posição dará suporte às áreas de Saúde, E-commerce, Inside Sales e Lojas, assegurando a qualidade, integridade e disponibilidade das informações.
+
+Principais Atividades
+
+Apoiar a construção, ajuste e manutenção de modelos de dados, adicionando colunas a tabelas de fatos e dimensões e compreendendo as diferenças entre modelagem transacional e dimensional. 
+Construir e documentar modelos relacionais e dimensionais, interpretando corretamente entidades e relacionamentos, com supervisão do time. 
+Apoiar a criação e manutenção de pipelines de dados batch, utilizando códigos de referência e configurando pipelines simples com agendamento e dependências diretas. 
+Interagir com ambientes de processamento distribuído (Spark, S3, GCS), compreendendo conceitos de paralelismo e concorrência, além de apoiar a otimização de recursos e custos. 
+Escrever e manter queries SQL básicas (CTEs, joins, filtros e agregações), garantindo a integridade e qualidade dos dados. 
+Apoiar a validação de dados, realização de testes e identificação de riscos que possam impactar a consistência das informações. 
+Traduzir consultas SQL para Spark SQL, apoiando a produtivização de tabelas analíticas. 
+Documentar entregas, seguir boas práticas de governança de dados e contribuir para o aprendizado contínuo do time.
+
+Requisitos
+
+Conhecimento básico em modelagem de dados (relacional e dimensional). 
+Experiência ou vivência com SQL para consultas, validações e análises de dados. 
+Conhecimento introdutório em pipelines de dados batch. 
+Familiaridade com ambientes de processamento distribuído (como Spark) e armazenamento em nuvem (S3, GCS ou similares). 
+Capacidade analítica, atenção a detalhes e organização para lidar com múltiplas demandas. 
+Boa comunicação, postura colaborativa e abertura para feedback contínuo. 
+Compromisso com ética, documentação e boas práticas de governança de dados.
+
+Requisitos Diferenciais
+
+xperiência prática com Spark SQL. 
+Conhecimento em conceitos de qualidade de dados (ACID, deduplicação, dados recentes). 
+Vivência com ferramentas de orquestração de pipelines. 
+Experiência prévia em ambientes de dados em cloud. 
+Interesse em evoluir tecnicamente na carreira de Data/Analytics Engineering.
+
+Somos o maior ecossistema pet do Brasil, unidos por um propósito: transformar o mundo em um lugar onde os pets sejam mais felizes e saudáveis. Pioneiros no digital, oferecemos tudo o que o seu pet precisa, em um só lugar: e-commerce, app, lojas físicas, planos de saúde pet, creche, hospedagem e muito mais! Estamos sempre inovando com tecnologias que empoderam médicos veterinários e contamos com a maior referência em diagnósticos rápidos e de alta qualidade.
+
+E você, vem fazer parte dessa missão com a gente?
+
+Nosso jeito de trabalhar
+
+Na Petlove nós somos apaixonados por pets e por pessoas. Por isso, buscamos garantir que somos inclusivos e formamos times diversos, sempre procurando refletir em nossas decisões nosso compromisso com esse tema! Consideramos enriquecedor contratar pessoas com deficiência, de gêneros e orientação sexual diversas, incluindo todas as etnias e religiões, além de todas as idades e demais marcadores de identidade. Temos certeza que só assim formaremos times inconformados, ágeis e comprometidos com o nosso propósito.
+
+Se identificou? Então vem com a gente!
+
+Onde tem pet, tem love — só falta você!
+
+Quer saber mais sobre a Petlove e nossos benefícios? Não perca a chance de conferir nossa página de carreiras: https://petlove.jobs.recrut.ai/",,,,
+2026-01-12,Analista de Inteligência de Negócio - Nível Junior a Pleno - Home Office,APG GOV,Brazil,https://www.linkedin.com/jobs/view/4352363731,[],,,[],[],[],"Sobre a vaga
+Buscamos uma pessoa com forte capacidade analítica para atuar na coleta, organização e análise de dados provenientes de diferentes fontes, com foco em transformar informações em insumos estratégicos para apoio à tomada de decisão.
+
+O nível da posição (Júnior ou Pleno) será definido de acordo com a experiência, maturidade técnica e aderência ao perfil durante o processo seletivo.
+
+Responsabilidades e atribuições
+
+Principais atividades:
+
+Coletar dados provenientes de diferentes fontes, como documentos institucionais, bases internas, planilhas, sistemas e outros repositórios.
+Organizar, estruturar e padronizar dados para garantir consistência, confiabilidade e facilidade de análise.
+Aplicar conceitos de matemática, estatística e lógica para análise de dados.
+Identificar padrões, tendências, comportamentos e incoerências nos dados.
+Apoiar a construção de análises e modelos analíticos conforme a necessidade do negócio.
+Traduzir dados brutos em informações relevantes e acionáveis.
+Apoiar a resposta a perguntas estratégicas relacionadas a desempenho, riscos, oportunidades e eficiência operacional.
+Elaborar relatórios analíticos e materiais de apoio para gestores e áreas internas.
+Apresentar informações de forma clara, estruturada e acessível para públicos técnicos e não técnicos.
+Apoiar a identificação de inconsistências e oportunidades de melhoria em processos.
+Contribuir com análises que ajudem a prever demandas, apoiar planejamentos e melhorar a eficiência operacional.
+
+
+Requisitos e qualificações
+
+Requisitos
+
+Formação em áreas de Exatas (Engenharias, Estatística, Matemática, Ciência de Dados ou áreas correlatas).
+Forte base em Matemática, Estatística e Lógica.
+Perfil analítico, organizado e com atenção a detalhes.
+Conhecimento em ferramentas de BI (ex.: Power BI, Looker, Tableau ou similares).
+Conhecimento em SQL para consulta e manipulação de dados.
+Capacidade de analisar dados estruturados e não estruturados.
+Excelente comunicação para traduzir dados em informações compreensíveis.
+
+
+Diferenciais
+
+Experiência prévia com análise de dados (acadêmica ou profissional).
+Vivência com bases de dados e ferramentas de visualização de dados.
+Conhecimento em programação (ex.: Python, R, SQL ou similares).
+Experiência com análise de documentos 
+
+
+Soft Skills Valorizadas
+
+Curiosidade intelectual e vontade de aprender.
+Persistência para lidar com dados incompletos ou desestruturados.
+Dedicação, responsabilidade e comprometimento com entregas.
+Organização e senso crítico.
+Autonomia, disciplina e boa gestão do tempo (home office).
+
+
+Informações adicionais
+
+Modelo de trabalho: 100% remoto.
+
+Faixa Salarial - (enquadramento conforme nível, experiência e avaliação durante o processo seletivo)
+
+R$ 4.800,00 a R$ 7.500,00 (PJ)",,,,
+2026-01-12,ANALISTA DE GOVERNANÇA TI - SR (468768) - REMOTE,KaBuM!,Brazil,https://www.linkedin.com/jobs/view/4326432336,[],,,[],[],[],"Sobre a vaga
+Como é o ambiente de trabalho?
+
+Nós, do KaBuM, buscamos pessoas apaixonadas por tecnologia, obcecadas por agilidade, qualidade e excelência no atendimento. Todas as oportunidades são abertas para todas as pessoas, sem distinção de gênero, identidade de gênero, orientação sexual, raça, etnia, religião, idade e deficiência.
+
+Responsabilidades da Oportunidade
+
+Responsabilidades
+
+Implementar, manter e aprimorar políticas, normas e procedimentos de governança de TI, baseando-se em frameworks como ITIL e COBIT.
+Identificar, avaliar e monitorar riscos de TI, propondo planos de mitigação
+Estruturar e manter o Comitê de Governança de TI, preparando materiais e acompanhando as decisões.
+Analisar e gerenciar o orçamento (OPEX e CAPEX) de TI.
+Definir, monitorar e reportar indicadores de desempenho (KPIs) para a alta gestão, demonstrando o valor da área de TI, bem como realizar apresentações a respeito de resultados, problemas ou pontos de atenção.
+Promover treinamentos e workshops para conscientizar equipes sobre as boas práticas de governança e segurança da informação.
+
+Requisitos
+
+Requisitos
+
+Experiência Comprovada em Frameworks de Governança: Conhecimento sólido e aplicação prática de ITIL v4 (certificação desejável) e COBIT (5 ou superior).
+Gestão de Riscos e Compliance: Vivência na aplicação de metodologias de gestão de riscos (ex: ISO 31000 ou NIST) e conformidade com regulamentações como LGPD e/ou SOX.
+Modelagem de Processos: Habilidade em mapear, documentar e otimizar processos de TI utilizando notação padrão (ex: BPMN), visando a melhoria contínua.
+Gestão Orçamentária: Experiência prática na elaboração e controle de orçamentos de TI (OPEX/CAPEX), incluindo análise de viabilidade e elaboração de justificativas técnicas.
+Ferramentas de Gestão: Domínio de ferramentas de gestão de portfólio, projetos e processos (ex: Jira, Confluence, Trello).
+
+Benefícios
+
+Assist. Médica
+Assist. Odontológica
+Desconto em Produtos
+Seguro de Vida
+Vale-Alimentação
+
+Observações e/ou Benefícios Adicionais
+
+Gympass
+Totalpass
+New Value
+Clube dos Magalus 
+Prime Ninja
+Ninja Academy",,,,
+2026-01-12,Vem Ser CSixer | Banco de Talentos,C6 Bank,Brazil,https://www.linkedin.com/jobs/view/3801444702,[],,,[],[],[],"Sobre a vaga
+Antes mesmo do lançamento do banco, estabelecemos, junto com toda a equipe, os valores em que acreditamos e que melhor definem o jeito de trabalhar que escolhemos. Os CSixers (como chamamos, informalmente, todos que trabalham no C6 Bank) participaram dessa construção para definir, por meio de situações já vividas, os comportamentos que gostaríamos de ver (e não ver) em cada valor. Nossa cultura nos reúne em torno de seis valores comuns, fortalecendo as relações pessoais e profissionais dentro do banco e desenvolvendo o sentimento de pertencimento dos colaboradores.
+
+Nossos valores
+
+Ética
+
+Sem isso, não tem nem conversa. Com esse pilar, tudo o que queremos construir será sólido, duradouro e verdadeiro. Fazemos o que é correto.
+
+Desafiar o status quo
+
+Dá para fazer diferente? Sempre dá. E pode ser simples. Temos paixão por transformar e evoluir.
+
+Escolhemos o frescobol
+
+Aqui ninguém ganha sozinho. Quando uma pessoa erra, o outro arredonda a bola. É uma relação de ganha-ganha.
+
+Bom humor
+
+Bom humor é fundamental. O clima bom e descontraído favorece as relações, a criatividade e a inovação. ""Mas apelou, perdeu.""
+
+Autorcracia
+
+Autorcracia significa ter liberdade com responsabilidade. Se a empresa fosse minha, eu faria isso?
+
+Exercemos a arte de discordar
+
+Perguntamos “por que” antes de discordar e não nos apaixonamos pelos próprios argumentos. Assim, podemos compreender para discordar e construir a melhor solução.
+
+Nossos benefícios
+
+Vale-Refeição;
+Vale-Alimentação;
+Plano e saúde e odontológico;
+Auxílio-Creche;
+Seguro de Vida;
+Wellhub;
+Psicologia Viva;
+Cartão C6 Carbon;
+Carbon Spa;
+Sala de amamentação;
+Bicicletário;
+Vestiário;
+Espaço de convivência;
+Empresa Cidadã - Prorrogação do prazo da licença-maternidade e licença-paternidade.
+
+
+C6 BANK
+
+O BANCO DA SUA VIDA
+
+Atendemos pessoas físicas, MEIs e PMEs em todos os estados do Brasil. Sem agências físicas, oferecemos mais de 90 produtos e serviços financeiros feitos para todos os perfis de clientes.
+
+Estamos localizados em São Paulo-SP e contamos com mais de 3.000 CSixers que estão sempre a mil por hora. Em pouco mais de cinco anos, conquistamos muitos prêmios e reconhecimentos.
+
+No C6 Bank, acreditamos que a diversidade impulsiona a inovação e fortalece nosso ambiente de trabalho. Por isso, promovemos uma cultura inclusiva, que valoriza a equidade e garante oportunidades para todas as pessoas, independentemente de raça, cor, idade, credo, deficiência, nacionalidade, estado civil, orientação sexual, identidade ou expressão de gênero. Aqui, todo mundo é bem-vindo para ser quem é.
+
+Confira mais informações no vídeo abaixo:",,,,
+2026-01-12,Analista DevOps,Grupo Boticário,Brazil,https://www.linkedin.com/jobs/view/4358397214,[],,,[],[],[],"Sobre a vaga
+Descrição da vaga
+
+Um dos maiores grupos de beleza do mundo, o Grupo Boticário é uma empresa brasileira presente em mais de 40 países. É dono das marcas O Boticário, Eudora, Quem Disse, Berenice?, Vult, O.U.i, Dr. JONES, Tô.que.tô, TRUSS, e do marketplace Beleza na Web, além de atuar com produtos licenciados como Australian Gold, Bio Oil, Nuxe, e Pampers e sua divisão para o mercado B2B. Essa interação entre diferentes marcas, ativos, plataformas, rede de franqueados, representantes, distribuidores, varejistas, sellers e fornecedores formam o ecossistema de beleza do Grupo Boticário que oferece, ainda, soluções digitais de gestão de negócio para o varejo brasileiro por meio das suas marcas Mooz, Casa Magalhães e GAVB. São mais de 19 mil colaboradores diretos, com mais de 4 mil lojas em 1.780 cidades brasileiras.
+
+Responsabilidades e atribuições
+
+
+Gestão e manutenção de infraestruturas críticas: 
+Garantir a disponibilidade, escalabilidade e segurança dos ambientes de infraestrutura;
+Trabalhar em estreita colaboração com desenvolvimento, segurança e operações para garantir a integração das soluções;
+Assegurar que os ambientes atendam aos padrões de segurança, qualidade e conformidade exigidos pelo negócio
+
+
+Requisitos e qualificações
+
+AWS Geral - Conceitos Gerais para administração;
+
+Sistemas Operacionais Windows e Linux - Troubleshooting;
+
+Segurança Conceitos Gerais;
+
+Network Conceitos Gerais;
+
+CI-CD - Azure Devops e Terraform/Atlantis + Github;
+
+Soluções de automação;
+
+Soluções de Monitoramento;
+
+Desejável conhecimento em Kubernetes, Linux, Terraform;
+
+Ensino superior Completo.
+
+Informações adicionais
+
+NOSSOS BENEFÍCIOS
+
+Já falamos que o Grupo Boticário é o melhor e maior ecossistema de beleza, né?
+
+E quando falamos dos Benefícios, nos preocupamos com as nossas pessoas e por isso, oferecemos um pacote de benefícios* que permite uma vida mais equilibrada e completa:
+
+
+Aqui, sua Saúde é prioridade
+ Plano médico e odontológico
+ Auxílio medicamentos
+ Vale saúde para familiares
+ Sessões de psicoterapia gratuitas
+ Telemedicina e 2ª opinião médica
+
+
+ . Vacina da gripe gratuita
+
+
+ Programas de cuidado com a saúde
+Para cuidar da sua Alimentação
+ Vale refeição ou restaurante local (conforme modelo de trabalho)
+ Vale alimentação
+ Vale alimentação de Natal
+Garantindo Bem-Estar e Qualidade de Vida em todos os aspectos da vida
+ Plano de academias e estúdios de atividade física
+ Auxílio home office (modelos de trabalho híbrido e remoto)
+ Plano de saúde para pets
+ Day off de aniversário
+ Desconto de até 40% em nossos produtos
+ Associação para colaboradores (convênios e parcerias, loja multimarcas, academias total pass, cursos e muito mais!)
+ Programa de viagens e hospedagens
+Para a Família, nosso bem mais precioso
+ Auxílio educação infantil
+ Crédito nutrição infantil
+ Auxílio babá
+ Auxílio material escolar
+ Orientação jurídica, psicológica e social
+ Apoio para pais atípicos
+ Licença parental estendida (180 dias para mães e 120 dias para pais)
+Mobilidade para sua jornada presencial
+ Vale Transporte e Estacionamento (modelos híbrido e presencial)
+Seguridade para proteção e tranquilidade financeira
+ Seguro de Vida
+ Apoio ao falecimento de pais
+ Previdência Privada
+ Empréstimos consignados
+Os pacotes de benefícios são configurados conforme regras de elegibilidade.
+
+
+Grupo Boticário
+
+De uma pequena farmácia de manipulação à maior franquia de cosméticos do planeta.
+
+Somos um Grupo com 15 marcas que está presente em mais de 40 países, com mais de 4 mil lojas físicas, líder de e-commerce de beleza no Brasil e mais de 19 mil colaboradores diretos. Temos um ecossistema próprio de beleza, que vai da indústria ao ponto de venda, da logística ao varejo, do laboratório ao coração das consumidoras e das nossas inovações na palma da sua mão. Acreditamos que o futuro mais bonito é aquele que construímos juntos, por isso, até 2030 temos compromissos ambiciosos voltados para o impacto positivo em dimensões humanas, ambientais e em nossos processos produtivos.
+
+Ganhamos o ranking ""Employer Branding Awards 2025"" do Glassdoor, que nos elegeu a melhor empresa para se trabalhar no setor de varejo no Brasil! Reconhecimento baseado em avaliações voluntárias e anônimas de nossos colaboradores e ex-colaboradores sobre como é trabalhar aqui.
+
+Reinventamos a beleza por meio da tecnologia, inovação, diversidade e sustentabilidade com: O Boticário, Eudora, Quem Disse, Berenice?, Vult, O.U.i, Dr. JONES, TRUSS e do marketplace Beleza na Web, além de atuarmos com produtos licenciados como Australian Gold, Bio Oil e Linha de cuidados Pampers.
+
+Vem fazer beleza com a gente!",,,,
+2026-01-12,BANCO DE TALENTOS - TECNOLOGIA DA INFORMAÇÃO (TI) - GRUPO GVC,GrupoGVC,Brazil,https://www.linkedin.com/jobs/view/4310013064,[],,,[],[],[],"Sobre a vaga
+BANCO DE TALENTOS – TECNOLOGIA DA INFORMAÇÃO (TI) – GRUPO GVC
+
+Unidades: Salvador, Simões Filho, Barreiras, Bom Jesus da Lapa, Guanambi, Caetité, Juazeiro (BA) e Paulista (PE).
+
+O Grupo GVC está em constante expansão e investe em tecnologia e inovação para aprimorar seus processos e garantir eficiência operacional.
+
+Se você é apaixonado por tecnologia, gosta de resolver problemas e quer fazer parte de uma equipe estratégica, cadastre-se em nosso BANCO DE TALENTOS – TI.
+
+Oportunidades disponíveis na área de Tecnologia da Informação:
+
+Jovem Aprendiz 
+Estagiário 
+Assistente de TI 
+Analista de TI 
+Coordenador de TI
+
+Modalidades de contratação:
+
+CLT 
+PJ 
+Temporário 
+
+Pacote de Benefícios:
+
+ Salário compatível com o mercado 
+ Vale Transporte 
+ Vale Alimentação 
+ Plano de Saúde 
+ Plano Odontológico 
+ TotalPass (benefício para academias e bem-estar) 
+
+Como participar?
+
+Basta cadastrar seu currículo em nosso Banco de Talentos e selecionar a área/cargo de interesse. Assim que surgir uma oportunidade compatível com seu perfil, entraremos em contato!
+
+Se você se identifica com a área de Tecnologia da Informação e Inovação Digital, cadastre-se agora no nosso BANCO DE TALENTOS – TI e venha crescer com a gente!
+
+Grupo GVC – Conectando Pessoas, Inovação e Sustentabilidade.",,,,
+2026-01-12,Engenheiro de Analytics Júnior,Petlove,Brazil,https://www.linkedin.com/jobs/view/4346607280,[],,,[],[],[],"Sobre a vaga
+O time de Analytics & Data Engineering é responsável por garantir a construção, manutenção e confiabilidade dos dados utilizados pela empresa, apoiando análises, modelos analíticos e a tomada de decisão baseada em dados. Essa posição dará suporte às áreas de Saúde, E-commerce, Inside Sales e Lojas, assegurando a qualidade, integridade e disponibilidade das informações.
+
+Principais Atividades
+
+Apoiar a construção, ajuste e manutenção de modelos de dados, adicionando colunas a tabelas de fatos e dimensões e compreendendo as diferenças entre modelagem transacional e dimensional. 
+Construir e documentar modelos relacionais e dimensionais, interpretando corretamente entidades e relacionamentos, com supervisão do time. 
+Apoiar a criação e manutenção de pipelines de dados batch, utilizando códigos de referência e configurando pipelines simples com agendamento e dependências diretas. 
+Interagir com ambientes de processamento distribuído (Spark, S3, GCS), compreendendo conceitos de paralelismo e concorrência, além de apoiar a otimização de recursos e custos. 
+Escrever e manter queries SQL básicas (CTEs, joins, filtros e agregações), garantindo a integridade e qualidade dos dados. 
+Apoiar a validação de dados, realização de testes e identificação de riscos que possam impactar a consistência das informações. 
+Traduzir consultas SQL para Spark SQL, apoiando a produtivização de tabelas analíticas. 
+Documentar entregas, seguir boas práticas de governança de dados e contribuir para o aprendizado contínuo do time.
+
+Requisitos
+
+Conhecimento básico em modelagem de dados (relacional e dimensional). 
+Experiência ou vivência com SQL para consultas, validações e análises de dados. 
+Conhecimento introdutório em pipelines de dados batch. 
+Familiaridade com ambientes de processamento distribuído (como Spark) e armazenamento em nuvem (S3, GCS ou similares). 
+Capacidade analítica, atenção a detalhes e organização para lidar com múltiplas demandas. 
+Boa comunicação, postura colaborativa e abertura para feedback contínuo. 
+Compromisso com ética, documentação e boas práticas de governança de dados.
+
+Requisitos Diferenciais
+
+xperiência prática com Spark SQL. 
+Conhecimento em conceitos de qualidade de dados (ACID, deduplicação, dados recentes). 
+Vivência com ferramentas de orquestração de pipelines. 
+Experiência prévia em ambientes de dados em cloud. 
+Interesse em evoluir tecnicamente na carreira de Data/Analytics Engineering.
+
+Somos o maior ecossistema pet do Brasil, unidos por um propósito: transformar o mundo em um lugar onde os pets sejam mais felizes e saudáveis. Pioneiros no digital, oferecemos tudo o que o seu pet precisa, em um só lugar: e-commerce, app, lojas físicas, planos de saúde pet, creche, hospedagem e muito mais! Estamos sempre inovando com tecnologias que empoderam médicos veterinários e contamos com a maior referência em diagnósticos rápidos e de alta qualidade.
+
+E você, vem fazer parte dessa missão com a gente?
+
+Nosso jeito de trabalhar
+
+Na Petlove nós somos apaixonados por pets e por pessoas. Por isso, buscamos garantir que somos inclusivos e formamos times diversos, sempre procurando refletir em nossas decisões nosso compromisso com esse tema! Consideramos enriquecedor contratar pessoas com deficiência, de gêneros e orientação sexual diversas, incluindo todas as etnias e religiões, além de todas as idades e demais marcadores de identidade. Temos certeza que só assim formaremos times inconformados, ágeis e comprometidos com o nosso propósito.
+
+Se identificou? Então vem com a gente!
+
+Onde tem pet, tem love — só falta você!
+
+Quer saber mais sobre a Petlove e nossos benefícios? Não perca a chance de conferir nossa página de carreiras: https://petlove.jobs.recrut.ai/",,,,
+2026-01-12,Tech Manager I - Venda Direta,Grupo Boticário,Brazil,https://www.linkedin.com/jobs/view/4359607694,[],,,[],[],[],"Sobre a vaga
+Descrição da vaga
+
+SOBRE O GRUPO BOTICÁRIO 
+
+Um dos maiores grupos de beleza do mundo, o Grupo Boticário é uma empresa brasileira presente em mais de 40 países. É dono das marcas O Boticário, Eudora, Quem Disse, Berenice?, Vult, O.U.i, Dr. JONES, Tô.que.tô, TRUSS, e do marketplace Beleza na Web, além de atuar com produtos licenciados como Australian Gold, Bio Oil, Nuxe, e Pampers e sua divisão para o mercado B2B. Essa interação entre diferentes marcas, ativos, plataformas, rede de franqueados, representantes, distribuidores, varejistas, sellers e fornecedores formam o ecossistema de beleza do Grupo Boticário que oferece, ainda, soluções digitais de gestão de negócio para o varejo brasileiro por meio das suas marcas Mooz, Casa Magalhães e GAVB. São mais de 19 mil colaboradores diretos, com mais de 4 mil lojas em 1.780 cidades brasileiras.
+
+Além disso, valorizamos a diversidade e estamos comprometidos com a promoção da inclusão e equidade em nossos times. Por isso, temos vagas destinadas aos grupos minorizados priorizados em nossa estratégia.
+
+Responsabilidades e atribuições
+
+Conheça o time de Venda Direta:
+
+No time de Venda Direta temos a missão de cada vez mais trazer beleza para a vida de nossas representantes, entendemos que a venda direta é também uma forma de empoderar pessoas que sonham em empreender, e por isso queremos fornecer a melhor experiência possível para nossas empreendedoras. Em um mundo cada vez mais digital, transformar esse canal de venda através da tecnologia é o que nos traz Brilho no Olho para construir o maior ecossistema de beleza do mundo!
+
+Sendo assim, você será responsável por liderar uma das equipes de engenharia de software na diretoria de Vendas Direta, assegurando a execução técnica das iniciativas, gestão da equipe e o acompanhamento das entregas. Esta liderança desempenhará um papel fundamental na evolução técnica de novos sistemas e legados, promovendo inovação e facilitando a usabilidade e a manutenção.
+
+Como será o seu dia a dia?
+
+
+Gestão das pessoas do time de desenvolvimento de software, com o intuito de acompanhar e desenvolver nossos colaboradores, realizando sessões de 1:1 e dando feedbacks de forma frequente;
+Facilitar cerimônias que façam parte da metodologia adotada pelo squad, como plannings, refinamentos, retrospectivas, etc.;
+Remover impedimentos do time;
+Navegar pela companhia, identificando oportunidades e papéis-chave para o sucesso do time;
+Coordenar iniciativas em que um ou mais times são necessários para o sucesso do produto;
+Realizar sessões com todos os tipos de stakeholders para mostrar os últimos resultados alcançados, colher feedbacks/insights e realizar alinhamentos sobre o roadmap do produto;
+Construir a visão e missão do squad em conjunto com os membros do time;
+Acompanhar frequentemente métricas de produto e métricas de negócio;
+Participar de processos de discovery de produto;
+Contribuir com a definição dos objetivos e métricas-chaves do produto/squad, expondo frequentemente esses resultados aos stakeholders (OKRs).
+
+
+Requisitos e qualificações
+
+O que você precisa ter ou saber?
+
+
+Experiência anterior em liderança de times de desenvolvimento de software para produtos digitais;
+Vivência em melhoria de processos, produtos ou serviços;
+Conhecimento em técnicas de facilitação e resolução de problemas;
+Experiência em times ágeis (Scrum, Kanban, etc.);
+Liderança de equipes durante a modernização ou migração de tecnologias e/ou processos;
+
+
+Pontos de interesse ou diferenciais:
+
+
+Experiência com squads de plataforma;
+Conhecimento em elastic search/lucene.
+
+
+Informações adicionais
+
+NOSSOS BENEFÍCIOS
+
+Já falamos que o Grupo Boticário é o melhor e maior ecossistema de beleza, né?
+
+E quando falamos dos Benefícios, nos preocupamos com as nossas pessoas e por isso, oferecemos um pacote de benefícios* que permite uma vida mais equilibrada e completa:
+
+
+Aqui, sua Saúde é prioridade
+ Plano médico e odontológico
+ Auxílio medicamentos
+ Vale saúde para familiares
+ Sessões de psicoterapia gratuitas
+ Telemedicina e 2ª opinião médica
+
+
+ . Vacina da gripe gratuita
+
+
+ Programas de cuidado com a saúde
+Para cuidar da sua Alimentação
+ Vale refeição ou restaurante local (conforme modelo de trabalho)
+ Vale alimentação
+ Vale alimentação de Natal
+Garantindo Bem-Estar e Qualidade de Vida em todos os aspectos da vida
+ Plano de academias e estúdios de atividade física
+ Auxílio home office (modelos de trabalho híbrido e remoto)
+ Plano de saúde para pets
+ Day off de aniversário
+ Desconto de até 40% em nossos produtos
+ Associação para colaboradores (convênios e parcerias, loja multimarcas, academias total pass, cursos e muito mais!)
+ Programa de viagens e hospedagens
+Para a Família, nosso bem mais precioso
+ Auxílio educação infantil
+ Crédito nutrição infantil
+ Auxílio babá
+ Auxílio material escolar
+ Orientação jurídica, psicológica e social
+ Apoio para pais atípicos
+ Licença parental estendida (180 dias para mães e 120 dias para pais)
+Mobilidade para sua jornada presencial
+ Vale Transporte e Estacionamento (modelos híbrido e presencial)
+Seguridade para proteção e tranquilidade financeira
+ Seguro de Vida
+ Apoio ao falecimento de pais
+ Previdência Privada
+ Empréstimos consignados
+Os pacotes de benefícios são configurados conforme regras de elegibilidade.
+
+
+Grupo Boticário
+
+De uma pequena farmácia de manipulação à maior franquia de cosméticos do planeta.
+
+Somos um Grupo com 15 marcas que está presente em mais de 40 países, com mais de 4 mil lojas físicas, líder de e-commerce de beleza no Brasil e mais de 19 mil colaboradores diretos. Temos um ecossistema próprio de beleza, que vai da indústria ao ponto de venda, da logística ao varejo, do laboratório ao coração das consumidoras e das nossas inovações na palma da sua mão. Acreditamos que o futuro mais bonito é aquele que construímos juntos, por isso, até 2030 temos compromissos ambiciosos voltados para o impacto positivo em dimensões humanas, ambientais e em nossos processos produtivos.
+
+Ganhamos o ranking ""Employer Branding Awards 2025"" do Glassdoor, que nos elegeu a melhor empresa para se trabalhar no setor de varejo no Brasil! Reconhecimento baseado em avaliações voluntárias e anônimas de nossos colaboradores e ex-colaboradores sobre como é trabalhar aqui.
+
+Reinventamos a beleza por meio da tecnologia, inovação, diversidade e sustentabilidade com: O Boticário, Eudora, Quem Disse, Berenice?, Vult, O.U.i, Dr. JONES, TRUSS e do marketplace Beleza na Web, além de atuarmos com produtos licenciados como Australian Gold, Bio Oil e Linha de cuidados Pampers.
+
+Vem fazer beleza com a gente!",,,,
+2026-01-12,"Desenvolvedor(a) Low-Code | Automação, IA e Integrações (n8n)",abler Vagas,Brazil,https://www.linkedin.com/jobs/view/4342966807,[],,,[],[],[],"Sobre a vaga
+Candidate-se rapidamente pelo email: vaga-339105@vagas.abler.in
+
+Nível: Pleno
+
+Cursos de: Sistema de Informação,Ciência da Computação,Engenharia de Software,Engenharia da Computação,Análise de Desenvolvimento de Sistemas,Tecnologia da Informação
+
+Escolaridade: Graduação - Análise de Desenvolvimento de Sistemas,Ciência da Computação,Engenharia da Computação,Engenharia de Software,Sistema de Informação,Tecnologia da Informação - Completo
+
+Tipo de contrato: PJ
+
+Jornada de trabalho: De segunda a sexta-feira, SOB DEMANDA, em horário comercial, normalmente 8 horas diárias.
+
+Disponibilidade para home-office
+
+Benefícios: Adicional de Produtividade, Comissão, Treinamentos
+
+Responsabilidades Da Posição
+
+Estamos em busca de um(a) Desenvolvedor(a) Low-Code Pleno, especializado(a) em n8n, para atuar no desenvolvimento de automações avançadas, integrações entre sistemas e soluções baseadas em Inteligência Artificial.
+
+Sua Missão Será Criar Fluxos Eficientes, Otimizar Processos e Dar Continuidade a Projetos Já Estruturados, Garantindo Alta Performance e Confiabilidade Nas Entregas. Dentre Suas Responsabilidades Estão
+
+Desenvolver automações e agentes de IA no n8n, criando fluxos complexos e escaláveis;
+Integrar CRMs, ERPs e ferramentas como Google Calendar via APIs;
+Desenvolver endpoints em Node.js e integrar APIs JSON;
+Propor soluções técnicas inovadoras e apoiar usuários na adoção das automações criadas;
+Monitorar, depurar e otimizar fluxos de automação para garantir estabilidade e desempenho.
+
+📌 Diferencial Da Vaga
+
+Home Office;
+R$ 50–60/hora técnica;
+Remuneração adicional por tarefas realizadas internamente para a Sapiens;
+Remuneração por horas de certificação e cursos realizados;
+Recebimento de Comissão sobre novas vendas de produtos e serviços;
+Pagamento quinzenal, 5 dias após a apresentação do relatório de trabalho;
+Oportunidades de crescimento e desenvolvimento profissional no Bitrix24 e também em tecnologias integradas como Inteligência Artificial, Make, N8N, entre outras;
+Ambiente de trabalho colaborativo e dinâmico, contando com apoio contínuo de colegas profissionais experientes em Bitrix24;
+Treinamentos e certificações na plataforma Bitrix24;
+Mentoria e assessoria individual para desenvolvimento nas tecnologias aplicadas nos projetos.
+
+Requisitos Obrigatórios Para a Posição
+
+Experiência sólida com n8n (fluxos, agentes e automações complexas);
+Conhecimento em integrações de CRM (Bitrix24, Kommo) e ERPs de mercado;
+Habilidade com APIs, Node.js e manipulação de dados JSON;
+Conhecimentos básicos de HTML/CSS/JavaScript;
+Familiaridade com plataformas como WeWeb, Supabase ou similares;
+Capacidade de trabalhar de forma autônoma e proativa;
+Boa comunicação para colaboração com times internos e clientes;
+Vontade de aprender continuamente novas ferramentas low-code e no-code.
+
+🎯 Diferenciais
+
+Experiência anterior em projetos de automação para CRM e ERP;
+Conhecimento em plataformas como Airtable, Softr, Xano, Make/Integromat.",,,,
+2026-01-12,Tutor Graduação ON - IA,FIAP,Brazil,https://www.linkedin.com/jobs/view/4343091032,[],,,[],[],[],"Sobre a vaga
+Procuramos um(a) tutor(a) para atuar no curso de Inteligência Artificial online. 100% remoto.
+
+O profissional será responsável por acompanhar os alunos em sua jornada de aprendizado, oferecer suporte técnico nas disciplinas, esclarecer dúvidas e mediar atividades da turma. É essencial que tenha domínio técnico nas tecnologias abordadas ao longo do ano e boa comunicação com os estudantes.
+
+Requisitos Técnicos:
+
+Conhecimento de pipelines de projetos de back-end de IA usando programação em Python e banco de dados SQL.
+
+Competências Comportamentais:
+
+Excelente relacionamento com alunos, promovendo acolhimento e engajamento; Organização e comprometimento com cumprimento de prazos; Boa comunicação escrita e oral; Postura proativa, colaborativa e voltada para a resolução de problemas
+
+Diferenciais:
+
+Desejável vivência com plataformas EAD e ambientes virtuais de aprendizagem; Capacidade de traduzir conceitos técnicos em uma linguagem acessível.
+
+Se você gosta de ensinar, se conecta com o universo da tecnologia e quer impactar positivamente a formação de novos profissionais, venha fazer parte do nosso time!",,,,
+2026-01-12,Analista de BI (Business Intelligence),BR Gaap,Brazil,https://www.linkedin.com/jobs/view/4351690558,[],,,[],[],[],"Sobre a vaga
+Quem somos
+
+A BR Gaap é uma empresa de tecnologia que atua no apoio à prestação de contas públicas, oferecendo soluções inteligentes em software para órgãos públicos e entidades que precisam de eficiência, confiabilidade e transparência em seus processos.
+
+Acreditamos que a tecnologia é uma ferramenta essencial para transformar o serviço público. Por isso, nos envolvemos de verdade com nossos clientes e parceiros para fazer a diferença na gestão pública, promovendo mais controle, clareza e responsabilidade na aplicação dos recursos.
+
+Aqui, inovação e compromisso caminham juntos, sempre com foco em impacto social positivo e valorização das pessoas.
+
+Nossos Valores
+
+Responsabilidade; Transparência; Inovação; Organização; Excelência técnica; Colaboração e respeito; Responsabilidade Social; Valorização das pessoas.
+
+Esses valores orientam nossas decisões, relações e a forma como desenvolvemos nossas soluções.
+
+Missão Do Cargo e Responsabilidades
+
+Responsável por coletar, processar e analisar grandes volumes de dados de saúde, transformando-os em informações estratégicas, relatórios e dashboards, através de:
+
+Desenvolvimento de processos de ETL;
+Construção de modelos de dados (Data Warehouse);
+Criação e manutenção em dashboards e painéis interativos;
+Desenvolvimento de relatórios gerenciais para apoiar a tomada de decisão.
+Analisar dados de saúde para identificar tendências, padrões e insights.
+
+Você Precisa Ter
+
+Formação superior em Tecnologia da Informação, Estatística, Engenharia ou áreas correlacionadas.
+Experiência com ferramentas de BI (Power BI, Qlik etc.), linguagem SQL e modelagem de dados.
+Certificações de ISO/IEC 27001 e 27701.
+
+O Que Oferecemos (Benefícios)
+
+Remuneração fixa atrativa
+Auxílio alimentação: R$50,00/dia
+Auxílio mobilidade: R$30,00/dia
+Day - off
+Bolsa de estudos: até R$250,00/mês
+Plano de saúde/Assistência odontológica
+Seguro de vida
+Psicoterapia por valor social
+Parcerias educacionais
+Clube de descontos
+Academia na empresa
+Estacionamento
+Plano de carreira
+Café da manhã
+
+Trabalho
+
+📍 Rua São José, Jardim Vitória, 25 – Goiânia/GO – CEP 74865-380
+
+🕗 Horário: 08:00 às 18:00 (1h12 de Almoço)
+
+Modalidade DeTrabalho
+
+Híbrido ou Remoto",,,,
+2026-01-12,Estágio superior em TI - Infraestrutura,Unimed Vale do Sinos,Brazil,https://www.linkedin.com/jobs/view/4328827949,[],,,[],[],[],"Sobre a vaga
+Para atendermos nossos clientes de forma ágil, assertiva e humana, e continuarmos contribuindo para o crescimento da cooperativa, desejamos candidatos que se identifiquem com nossos valores e queiram fazer parte desse propósito. Nossa visão é nos tornarmos referência nacional em gestão de saúde, com inovação, sustentabilidade e liderança de mercado. Para isso, precisamos de pessoas que nos apoiem, levando essa visão adiante em suas atividades.
+
+Já pensou em fazer parte de uma equipe centrada no cuidado, que busca fazer a diferença na vida das pessoas? E melhor ainda: estar dentro do maior sistema de cooperativas de saúde do mundo?
+
+Responsabilidades e atribuições
+
+Auxiliar no atendimento de primeiro nível aos usuários internos e externos, auxiliando na identificação de necessidades, dúvidas e solicitações relacionadas aos sistemas e recursos de TI. 
+Auxiliar a resolução de incidentes e requisições dentro dos prazos definidos. 
+Atuar em conformidade com os processos da área de infraestrutura e com as boas práticas do ITIL, realizando o correto encaminhamento das demandas para as equipes responsáveis, sempre com orientação e acompanhamento da equipe técnica.
+
+
+Requisitos e qualificações
+
+Obrigatório estar cursando graduação em um dos seguintes cursos: Análise e Desenvolvimento de Sistemas, Ciência da Computação, Gestão da Tecnologia da Informação ou Segurança da informação (ou cursos afins)
+Disponibilidade de, no mínimo, um ano para estagiar;
+Disponibilidade para estagiar das 08h às 15h, com 1h de intervalo;
+Vaga Home Office.
+
+
+Informações adicionais
+
+Buscamos pessoas de diferentes comunidades e culturas para se unirem à nossa força de trabalho em busca de um ambiente diverso e inclusivo.
+
+Nossos Benefícios:
+
+Auxílio Home Office 🛜🏠
+Sodexo Vale Refeição ou Vale Alimentação 🛒🍴 (Você escolhe)😊 
+Quick-Massage gratuito nas Unidades de Trabalho 💆🏻‍♀️💆🏽‍♂️
+Day off de aniversário🥳🎉🎈",,,,
+2026-01-12,(2528) Senior Machine Learning Engineer,INTERA,Brazil,https://www.linkedin.com/jobs/view/4358254570,[],,,[],[],[],"Sobre a vaga
+No EBANX, você ajudará a expandir o acesso a pagamentos e tecnologia em alguns dos mercados mais dinâmicos do mundo. Somos uma fintech com status de unicórnio , impulsionada por IA e em rápida expansão para 29 países, com crescimento crescente .
+Nossa plataforma conecta empresas líderes globais a mais de 1 bilhão de consumidores , permitindo pagamentos internacionais sem complicações onde mais importa. Construímos com propósito, avançamos com rapidez e criamos soluções inovadoras e inclusivas.
+Se você deseja fazer parte de uma empresa que está transformando o futuro dos pagamentos com clareza , ambição e impacto no mundo real , adoraríamos conhecê-lo.
+Na equipe de Dados, transformamos informação em inteligência. Modelamos, organizamos e analisamos dados para gerar insights estratégicos que impulsionam a tomada de decisões no EBANX. Somos naturalmente curiosos e guiados por evidências.
+
+Itens essenciais para brilhar nesta função:
+• Experiência em MLOps, DevOps ou funções relacionadas;
+• Grande experiência com plataformas de nuvem (AWS, GCP, Azure);
+• Proficiência em ferramentas de conteinerização como Docker e sistemas de orquestração (por exemplo, Kubernetes);
+• Familiaridade com estruturas de ML (por exemplo, TensorFlow, PyTorch, Scikit-learn);
+• Fortes habilidades em Python com experiência em escrever código limpo, eficiente e sustentável;
+• Experiência com ferramentas de CI/CD (por exemplo, Jenkins, GitLab CI, GitHub Actions);
+• Conhecimento de pipelines de dados e processos ETL (streaming e batch);
+• Experiência em soluções de monitoramento, registro e alerta para serviços de ML (por exemplo, Prometheus, Grafana, DataDog);
+• Compreensão dos padrões de segurança e conformidade em sistemas de pagamento.
+
+O EBANX oferece:
+Programa WAVES: Bônus anuais baseados no desempenho da empresa.
+Auxílio-refeição/alimentação: crédito fornecido em um cartão de benefícios flexíveis.
+EBANX Educação: Suporte financeiro para programas de graduação, pós-graduação e MBA para apoiar seu crescimento profissional.
+Habilidades EBANX: Orçamento dedicado a workshops, cursos e certificações para incentivar seu desenvolvimento contínuo.
+Aulas de idiomas: aulas de espanhol, inglês e português para seu desenvolvimento pessoal e profissional.
+EBANX Saúde: Planos médicos e odontológicos completos com cobertura total para o funcionário, além de subsídios para dependentes cuidarem do seu bem-estar e do de sua família.
+EBANX Family: Auxílio-creche, licença parental estendida para cuidadores e programas de apoio a funcionárias grávidas e crianças.
+Seguro de vida: pago integralmente pelo EBANX.
+Transporte: Auxílio para estacionamento ou vale-transporte, dependendo da sua necessidade.
+EBANX Flexível: Um dia especial de folga no seu aniversário, horário de trabalho semiflexível (8 horas/dia, de segunda a sexta) e recesso de fim de ano entre o Natal e o Ano Novo, sem afetar seus dias de férias.
+EBANX Play: Programa de bem-estar com acesso ao Wellhub, e-Sports e parcerias com o SESC.
+Blue Club: Descontos exclusivos em padarias, restaurantes, lojas, cursos e muito mais.",,,,
